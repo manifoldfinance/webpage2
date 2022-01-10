@@ -31,9 +31,6 @@ function Home() {
         <Process />
         <FeaturesHome />
         <Tabs />
-        <Target />
-        <News />
-        <Newsletter />
 
       </main>
 
