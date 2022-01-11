@@ -1,0 +1,36 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="31.493"
+  height="17.886"
+  viewBox="0 0 31.493 17.886"
+>
+  <g id="medium-icon" transform="translate(-8.896 -8.446)">
+    <g id="Group_56" data-name="Group 56" transform="translate(8.896 8.446)">
+      <path
+        id="Path_65"
+        data-name="Path 65"
+        d="M312.544,288.843a8.882,8.882,0,1,1-8.882-8.943,8.913,8.913,0,0,1,8.882,8.943"
+        transform="translate(-294.78 -279.9)"
+        fill="#6493e6"
+      />
+    </g>
+    <g id="Group_57" data-name="Group 57" transform="translate(27.521 8.97)">
+      <path
+        id="Path_66"
+        data-name="Path 66"
+        d="M920.882,305.679c0,4.649-1.988,8.419-4.441,8.419S912,310.328,912,305.679s1.988-8.419,4.441-8.419,4.441,3.769,4.441,8.419"
+        transform="translate(-912 -297.26)"
+        fill="#6493e6"
+      />
+    </g>
+    <g id="Group_58" data-name="Group 58" transform="translate(37.265 9.847)">
+      <path
+        id="Path_67"
+        data-name="Path 67"
+        d="M1238.024,333.862c0,4.164-.7,7.542-1.562,7.542s-1.562-3.377-1.562-7.542.7-7.542,1.562-7.542,1.562,3.377,1.562,7.542"
+        transform="translate(-1234.9 -326.32)"
+        fill="#6493e6"
+      />
+    </g>
+  </g>
+</svg>

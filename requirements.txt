@@ -1,0 +1,1 @@
+@radix-ui/react-dialog, @radix-ui/react-collapsible, @radix-ui/react-aspect-ratio, @radix-ui/react-icons, @radix-ui/react-id, @radix-ui/react-visually-hidden, @stitches/core
