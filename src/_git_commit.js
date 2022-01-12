@@ -1,1 +1,1 @@
-export default { logMessage: '36b5c84 refactor cra' };
+export default {"logMessage": "70cf65b feat: report version (#4)"}
