@@ -8,4 +8,5 @@ sleep 1
 now=$(date +%s)
 
 echo "$VERSION"
+echo "Time spent in CI Build:"
 echo "$((now-start))"
