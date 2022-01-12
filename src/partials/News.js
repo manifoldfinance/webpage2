@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function News() {
   return (
@@ -22,7 +22,7 @@ function News() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require("../images/news-01.jpg").default}
+                        src={require('../images/news-01.jpg').default}
                         width="352"
                         height="198"
                         alt="News 01"
@@ -66,7 +66,7 @@ function News() {
                   <a href="#0">
                     <img
                       className="rounded-full shrink-0 mr-4"
-                      src={require("../images/news-author-01.jpg").default}
+                      src={require('../images/news-author-01.jpg').default}
                       width="40"
                       height="40"
                       alt="Author 01"
@@ -96,7 +96,7 @@ function News() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require("../images/news-02.jpg").default}
+                        src={require('../images/news-02.jpg').default}
                         width="352"
                         height="198"
                         alt="News 02"
@@ -140,7 +140,7 @@ function News() {
                   <a href="#0">
                     <img
                       className="rounded-full shrink-0 mr-4"
-                      src={require("../images/news-author-02.jpg").default}
+                      src={require('../images/news-author-02.jpg').default}
                       width="40"
                       height="40"
                       alt="Author 02"
@@ -170,7 +170,7 @@ function News() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require("../images/news-03.jpg").default}
+                        src={require('../images/news-03.jpg').default}
                         width="352"
                         height="198"
                         alt="News 03"
@@ -214,7 +214,7 @@ function News() {
                   <a href="#0">
                     <img
                       className="rounded-full shrink-0 mr-4"
-                      src={require("../images/news-author-03.jpg").default}
+                      src={require('../images/news-author-03.jpg').default}
                       width="40"
                       height="40"
                       alt="Author 03"

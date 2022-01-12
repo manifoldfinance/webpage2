@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function BlogSingle() {
   return (
@@ -35,7 +35,7 @@ function BlogSingle() {
                     <Link to="#">
                       <img
                         className="rounded-full shrink-0 mr-4"
-                        src={require("../images/news-author-04.jpg").default}
+                        src={require('../images/news-author-04.jpg').default}
                         width="40"
                         height="40"
                         alt="Author 04"
@@ -88,7 +88,7 @@ function BlogSingle() {
               >
                 <img
                   className="w-full"
-                  src={require("../images/news-single.jpg").default}
+                  src={require('../images/news-single.jpg').default}
                   width="1024"
                   height="576"
                   alt="News single"
@@ -101,24 +101,24 @@ function BlogSingle() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Quis enim lobortis scelerisque fermentum. Neque sodales ut
-                  etiam sit amet.{" "}
+                  etiam sit amet.{' '}
                   <Link
                     to="#"
                     className="text-gray-200 underline hover:no-underline"
                   >
                     Ligula ullamcorper
-                  </Link>{" "}
+                  </Link>{' '}
                   malesuada proin libero nunc consequat interdum varius. Quam
-                  pellentesque nec nam aliquam sem{" "}
+                  pellentesque nec nam aliquam sem{' '}
                   <strong className="font-medium text-gray-200">
                     et tortor consequat
                   </strong>
                   . Pellentesque adipiscing commodo elit at imperdiet. Semper
                   auctor neque vitae tempus quam pellentesque nec. Amet dictum
-                  sit amet justo donec enim diam.{" "}
+                  sit amet justo donec enim diam.{' '}
                   <strong className="font-medium text-gray-200">
                     Varius sit amet mattis vulputate enim
-                  </strong>{" "}
+                  </strong>{' '}
                   nulla aliquet porttitor. Odio pellentesque diam volutpat
                   commodo sed. Elit sed vulputate mi sit amet mauris commodo
                   quis imperdiet.
@@ -138,7 +138,7 @@ function BlogSingle() {
                 <figure className="mb-8">
                   <img
                     className="w-full"
-                    src={require("../images/news-inner-image.jpg").default}
+                    src={require('../images/news-inner-image.jpg').default}
                     width="768"
                     height="432"
                     alt="News inner"
@@ -202,13 +202,13 @@ function BlogSingle() {
                 <p className="mb-8">
                   Bibendum enim facilisis gravida neque convallis. Convallis
                   posuere morbi leo urna molestie turpis in eu mi bibendum neque
-                  egestas. Est ante in{" "}
+                  egestas. Est ante in{' '}
                   <Link
                     to="#"
                     className="text-gray-200 underline hover:no-underline"
                   >
                     nibh mauris cursus mattis molestie
-                  </Link>{" "}
+                  </Link>{' '}
                   aliquam purus sit amet luctus vulputate sapien nec sagittis
                   aliquam enim nec dui nunc mattis enim, sit amet nulla facilisi
                   morbi tempus iaculis urna id. Blandit cursus risus at ultrices
@@ -230,7 +230,7 @@ function BlogSingle() {
               <footer>
                 <div className="md:flex md:items-center md:justify-between text-center md:text-left">
                   <div className="text-lg text-gray-400 italic">
-                    Originally published at{" "}
+                    Originally published at{' '}
                     <Link to="https://cruip.com/" className="text-gray-200">
                       https://cruip.com/
                     </Link>
@@ -302,7 +302,7 @@ function BlogSingle() {
                       <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                         <img
                           className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                          src={require("../images/news-04.jpg").default}
+                          src={require('../images/news-04.jpg').default}
                           width="352"
                           height="198"
                           alt="News 04"
@@ -347,7 +347,7 @@ function BlogSingle() {
                     <Link to="#">
                       <img
                         className="rounded-full shrink-0 mr-4"
-                        src={require("../images/news-author-05.jpg").default}
+                        src={require('../images/news-author-05.jpg').default}
                         width="40"
                         height="40"
                         alt="Author 05"
@@ -377,7 +377,7 @@ function BlogSingle() {
                       <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                         <img
                           className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                          src={require("../images/news-05.jpg").default}
+                          src={require('../images/news-05.jpg').default}
                           width="352"
                           height="198"
                           alt="News 05"
@@ -414,7 +414,7 @@ function BlogSingle() {
                     <Link to="#">
                       <img
                         className="rounded-full shrink-0 mr-4"
-                        src={require("../images/news-author-03.jpg").default}
+                        src={require('../images/news-author-03.jpg').default}
                         width="40"
                         height="40"
                         alt="Author 03"
@@ -444,7 +444,7 @@ function BlogSingle() {
                       <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                         <img
                           className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                          src={require("../images/news-06.jpg").default}
+                          src={require('../images/news-06.jpg').default}
                           width="352"
                           height="198"
                           alt="News 06"
@@ -489,7 +489,7 @@ function BlogSingle() {
                     <Link to="#">
                       <img
                         className="rounded-full shrink-0 mr-4"
-                        src={require("../images/news-author-06.jpg").default}
+                        src={require('../images/news-author-06.jpg').default}
                         width="40"
                         height="40"
                         alt="Author 06"

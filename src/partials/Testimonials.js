@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function Testimonials() {
   return (
@@ -26,7 +26,7 @@ function Testimonials() {
                 <div className="relative inline-flex flex-col mb-4">
                   <img
                     className="rounded-full"
-                    src={require("../images/testimonial-01.jpg").default}
+                    src={require('../images/testimonial-01.jpg').default}
                     width="48"
                     height="48"
                     alt="Testimonial 01"
@@ -47,8 +47,8 @@ function Testimonials() {
                 it before.
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{" "}
-                -{" "}
+                <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{' '}
+                -{' '}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="#0"
@@ -68,7 +68,7 @@ function Testimonials() {
                 <div className="relative inline-flex flex-col mb-4">
                   <img
                     className="rounded-full"
-                    src={require("../images/testimonial-02.jpg").default}
+                    src={require('../images/testimonial-02.jpg').default}
                     width="48"
                     height="48"
                     alt="Testimonial 02"
@@ -89,8 +89,8 @@ function Testimonials() {
                 it before.
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{" "}
-                -{" "}
+                <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{' '}
+                -{' '}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="#0"
@@ -110,7 +110,7 @@ function Testimonials() {
                 <div className="relative inline-flex flex-col mb-4">
                   <img
                     className="rounded-full"
-                    src={require("../images/testimonial-03.jpg").default}
+                    src={require('../images/testimonial-03.jpg').default}
                     width="48"
                     height="48"
                     alt="Testimonial 03"
@@ -131,8 +131,8 @@ function Testimonials() {
                 it before.
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{" "}
-                -{" "}
+                <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{' '}
+                -{' '}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="#0"

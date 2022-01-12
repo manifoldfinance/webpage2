@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function Target() {
   return (
@@ -25,7 +25,7 @@ function Target() {
               >
                 <img
                   className="mx-auto md:max-w-none"
-                  src={require("../images/developers-eth-blocks.png").default}
+                  src={require('../images/developers-eth-blocks.png').default}
                   width="510"
                   height="510"
                   alt="MEV Service"

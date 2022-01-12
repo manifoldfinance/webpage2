@@ -17,7 +17,7 @@
     }
   }
 
-  input[type="checkbox"] {
+  input[type='checkbox'] {
     &:checked {
       + label {
         @apply bg-purple-600;

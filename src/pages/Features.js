@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 
-import Header from "../partials/Header";
-import PageIllustration from "../partials/PageIllustration";
-import HeroFeatures from "../partials/HeroFeatures";
-import Stats from "../partials/Stats";
+import Header from '../partials/Header';
+import PageIllustration from '../partials/PageIllustration';
+import HeroFeatures from '../partials/HeroFeatures';
+import Stats from '../partials/Stats';
 //import FeaturesZigzag from "../partials/FeaturesZigzag";
-import FeaturesBlocks from "../partials/FeaturesBlocks";
+import FeaturesBlocks from '../partials/FeaturesBlocks';
 //import CaseStudies from "../partials/CaseStudies";
-import Cta from "../partials/Cta";
-import Footer from "../partials/Footer";
+import Cta from '../partials/Cta';
+import Footer from '../partials/Footer';
 
 function Features() {
   return (

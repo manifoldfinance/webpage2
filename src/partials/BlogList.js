@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function BlogList() {
   return (
@@ -29,7 +29,7 @@ function BlogList() {
                 <figure className="relative h-0 pb-9/16 md:pb-3/4 lg:pb-9/16 overflow-hidden transform md:-translate-y-2 xl:-translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out">
                   <img
                     className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                    src={require("../images/blog-post-01.jpg").default}
+                    src={require('../images/blog-post-01.jpg').default}
                     width="540"
                     height="303"
                     alt="Blog post 01"
@@ -76,7 +76,7 @@ function BlogList() {
                   <Link to="#">
                     <img
                       className="rounded-full shrink-0 mr-4"
-                      src={require("../images/news-author-04.jpg").default}
+                      src={require('../images/news-author-04.jpg').default}
                       width="40"
                       height="40"
                       alt="Author 04"
@@ -116,7 +116,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require("../images/news-01.jpg").default}
+                        src={require('../images/news-01.jpg').default}
                         width="352"
                         height="198"
                         alt="News 01"
@@ -160,7 +160,7 @@ function BlogList() {
                   <Link to="#">
                     <img
                       className="rounded-full shrink-0 mr-4"
-                      src={require("../images/news-author-01.jpg").default}
+                      src={require('../images/news-author-01.jpg').default}
                       width="40"
                       height="40"
                       alt="Author 01"
@@ -190,7 +190,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require("../images/news-02.jpg").default}
+                        src={require('../images/news-02.jpg').default}
                         width="352"
                         height="198"
                         alt="News 02"
@@ -234,7 +234,7 @@ function BlogList() {
                   <Link to="#">
                     <img
                       className="rounded-full shrink-0 mr-4"
-                      src={require("../images/news-author-02.jpg").default}
+                      src={require('../images/news-author-02.jpg').default}
                       width="40"
                       height="40"
                       alt="Author 02"
@@ -264,7 +264,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require("../images/news-03.jpg").default}
+                        src={require('../images/news-03.jpg').default}
                         width="352"
                         height="198"
                         alt="News 03"
@@ -308,7 +308,7 @@ function BlogList() {
                   <Link to="#">
                     <img
                       className="rounded-full shrink-0 mr-4"
-                      src={require("../images/news-author-03.jpg").default}
+                      src={require('../images/news-author-03.jpg').default}
                       width="40"
                       height="40"
                       alt="Author 03"
@@ -334,7 +334,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require("../images/news-04.jpg").default}
+                        src={require('../images/news-04.jpg').default}
                         width="352"
                         height="198"
                         alt="News 04"
@@ -378,7 +378,7 @@ function BlogList() {
                   <Link to="#">
                     <img
                       className="rounded-full shrink-0 mr-4"
-                      src={require("../images/news-author-05.jpg").default}
+                      src={require('../images/news-author-05.jpg').default}
                       width="40"
                       height="40"
                       alt="Author 05"
@@ -408,7 +408,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require("../images/news-05.jpg").default}
+                        src={require('../images/news-05.jpg').default}
                         width="352"
                         height="198"
                         alt="News 05"
@@ -444,7 +444,7 @@ function BlogList() {
                   <Link to="#">
                     <img
                       className="rounded-full shrink-0 mr-4"
-                      src={require("../images/news-author-03.jpg").default}
+                      src={require('../images/news-author-03.jpg').default}
                       width="40"
                       height="40"
                       alt="Author 03"
@@ -474,7 +474,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require("../images/news-06.jpg").default}
+                        src={require('../images/news-06.jpg').default}
                         width="352"
                         height="198"
                         alt="News 06"
@@ -518,7 +518,7 @@ function BlogList() {
                   <Link to="#">
                     <img
                       className="rounded-full shrink-0 mr-4"
-                      src={require("../images/news-author-06.jpg").default}
+                      src={require('../images/news-author-06.jpg').default}
                       width="40"
                       height="40"
                       alt="Author 06"
@@ -544,7 +544,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require("../images/news-07.jpg").default}
+                        src={require('../images/news-07.jpg').default}
                         width="352"
                         height="198"
                         alt="News 07"
@@ -588,7 +588,7 @@ function BlogList() {
                   <Link to="#">
                     <img
                       className="rounded-full shrink-0 mr-4"
-                      src={require("../images/news-author-02.jpg").default}
+                      src={require('../images/news-author-02.jpg').default}
                       width="40"
                       height="40"
                       alt="Author 02"
@@ -618,7 +618,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require("../images/news-08.jpg").default}
+                        src={require('../images/news-08.jpg').default}
                         width="352"
                         height="198"
                         alt="News 08"
@@ -662,7 +662,7 @@ function BlogList() {
                   <Link to="#">
                     <img
                       className="rounded-full shrink-0 mr-4"
-                      src={require("../images/news-author-01.jpg").default}
+                      src={require('../images/news-author-01.jpg').default}
                       width="40"
                       height="40"
                       alt="Author 01"
@@ -692,7 +692,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require("../images/news-09.jpg").default}
+                        src={require('../images/news-09.jpg').default}
                         width="352"
                         height="198"
                         alt="News 09"
@@ -728,7 +728,7 @@ function BlogList() {
                   <Link to="#">
                     <img
                       className="rounded-full shrink-0 mr-4"
-                      src={require("../images/news-author-02.jpg").default}
+                      src={require('../images/news-author-02.jpg').default}
                       width="40"
                       height="40"
                       alt="Author 02"

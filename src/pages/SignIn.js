@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import Header from "../partials/Header";
-import PageIllustration from "../partials/PageIllustration";
+import Header from '../partials/Header';
+import PageIllustration from '../partials/PageIllustration';
 
 function SignIn() {
   return (
@@ -129,7 +129,7 @@ function SignIn() {
                   </div>
                 </form>
                 <div className="text-gray-400 text-center mt-6">
-                  Don’t you have an account?{" "}
+                  Don’t you have an account?{' '}
                   <Link
                     to="/signup"
                     className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"

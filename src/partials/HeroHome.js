@@ -1,5 +1,5 @@
 // eslint-disable
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -53,7 +53,7 @@ function HeroHome() {
             >
               <img
                 className="mx-auto md:max-w-none"
-                src={require("./banner.svg").default}
+                src={require('./banner.svg').default}
                 width="640"
                 height="510"
                 alt="MEV Service"

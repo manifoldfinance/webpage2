@@ -1,6 +1,6 @@
-import React, { useState, useRef, useEffect } from "react";
-import { Link } from "react-router-dom";
-import Dropdown from "../utils/Dropdown";
+import React, { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import Dropdown from '../utils/Dropdown';
 
 function Header() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -20,8 +20,8 @@ function Header() {
         return;
       setMobileNavOpen(false);
     };
-    document.addEventListener("click", clickHandler);
-    return () => document.removeEventListener("click", clickHandler);
+    document.addEventListener('click', clickHandler);
+    return () => document.removeEventListener('click', clickHandler);
   });
 
   // close the mobile menu if the esc key is pressed
@@ -30,8 +30,8 @@ function Header() {
       if (!mobileNavOpen || keyCode !== 27) return;
       setMobileNavOpen(false);
     };
-    document.addEventListener("keydown", keyHandler);
-    return () => document.removeEventListener("keydown", keyHandler);
+    document.addEventListener('keydown', keyHandler);
+    return () => document.removeEventListener('keydown', keyHandler);
   });
 
   return (
@@ -157,7 +157,7 @@ function Header() {
             {/* Hamburger button */}
             <button
               ref={trigger}
-              className={`hamburger ${mobileNavOpen && "active"}`}
+              className={`hamburger ${mobileNavOpen && 'active'}`}
               aria-controls="mobile-nav"
               aria-expanded={mobileNavOpen}
               onClick={() => setMobileNavOpen(!mobileNavOpen)}

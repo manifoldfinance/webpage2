@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function Process() {
   return (
@@ -8,7 +8,7 @@ function Process() {
           {/* Section header */}
           <div className="pb-12 mx-auto max-w-3xl text-center md:pb-20">
             <h2 className="mb-4 h2" data-aos="fade-up">
-              Reduce L1 Transaction costs{" "}
+              Reduce L1 Transaction costs{' '}
             </h2>
             <p
               className="text-xl text-gray-400"
@@ -31,9 +31,9 @@ function Process() {
                 aria-hidden="true"
                 className="hidden absolute h-1 border-t border-gray-700 border-dashed md:block"
                 style={{
-                  width: "calc(100% - 32px)",
-                  left: "calc(50% + 48px)",
-                  top: "32px",
+                  width: 'calc(100% - 32px)',
+                  left: 'calc(50% + 48px)',
+                  top: '32px',
                 }}
                 data-aos="fade-in"
                 data-aos-delay="200"
@@ -83,9 +83,9 @@ function Process() {
                 aria-hidden="true"
                 className="hidden absolute h-1 border-t border-gray-700 border-dashed md:block"
                 style={{
-                  width: "calc(100% - 32px)",
-                  left: "calc(50% + 48px)",
-                  top: "32px",
+                  width: 'calc(100% - 32px)',
+                  left: 'calc(50% + 48px)',
+                  top: '32px',
                 }}
                 data-aos="fade-in"
                 data-aos-delay="400"
@@ -121,7 +121,7 @@ function Process() {
               </h4>
               <p className="text-lg text-center text-gray-400">
                 Transactions submitted through SecureRPC can't be detected by
-                others before they are included on-chain{" "}
+                others before they are included on-chain{' '}
               </p>
             </div>
 

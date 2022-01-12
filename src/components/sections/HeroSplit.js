@@ -1,7 +1,7 @@
-import React from "react";
-import classNames from "classnames";
-import { SectionSplitProps } from "../../utils/SectionProps";
-import Button from "../elements/Button";
+import React from 'react';
+import classNames from 'classnames';
+import { SectionSplitProps } from '../../utils/SectionProps';
+import Button from '../elements/Button';
 
 const propTypes = {
   ...SectionSplitProps.types,
@@ -36,25 +36,25 @@ class HeroSplit extends React.Component {
     } = this.props;
 
     const outerClasses = classNames(
-      "hero section",
-      topOuterDivider && "has-top-divider",
-      bottomOuterDivider && "has-bottom-divider",
-      hasBgColor && "has-bg-color",
-      invertColor && "invert-color",
-      className
+      'hero section',
+      topOuterDivider && 'has-top-divider',
+      bottomOuterDivider && 'has-bottom-divider',
+      hasBgColor && 'has-bg-color',
+      invertColor && 'invert-color',
+      className,
     );
 
     const innerClasses = classNames(
-      "hero-inner section-inner",
-      topDivider && "has-top-divider",
-      bottomDivider && "has-bottom-divider"
+      'hero-inner section-inner',
+      topDivider && 'has-top-divider',
+      bottomDivider && 'has-bottom-divider',
     );
 
     const splitClasses = classNames(
-      "split-wrap",
-      invertMobile && "invert-mobile",
-      invertDesktop && "invert-desktop",
-      alignTop && "align-top"
+      'split-wrap',
+      invertMobile && 'invert-mobile',
+      invertDesktop && 'invert-desktop',
+      alignTop && 'align-top',
     );
 
     return (
@@ -91,7 +91,7 @@ class HeroSplit extends React.Component {
 
 // inline style
 const inlineCss = {
-  minHeight: "492px",
+  minHeight: '492px',
 };
 
 const inlineStyle = function () {

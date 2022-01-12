@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function HeroFeatures() {
   return (
@@ -59,7 +59,7 @@ function HeroFeatures() {
           {/* Image */}
           <img
             className="mx-auto"
-            src={require("../images/vecrv.svg").default}
+            src={require('../images/vecrv.svg').default}
             width="425"
             height="425"
             alt="Hero"

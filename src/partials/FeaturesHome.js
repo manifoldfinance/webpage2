@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function FeaturesHome() {
   return (
@@ -18,7 +18,7 @@ function FeaturesHome() {
                 <div className="relative">
                   <img
                     className="md:max-w-none"
-                    src={require("../images/globe.svg").default}
+                    src={require('../images/globe.svg').default}
                     width="540"
                     height="520"
                     alt="Features illustration"
@@ -125,7 +125,7 @@ function FeaturesHome() {
                   <div className="flex items-start mt-8">
                     <img
                       className="rounded-full shrink-0 mr-4"
-                      src={require("../images/features-avatar.jpg").default}
+                      src={require('../images/features-avatar.jpg').default}
                       width="40"
                       height="40"
                       alt="Features avatar"
@@ -138,8 +138,8 @@ function FeaturesHome() {
                       <div className="text-gray-700 font-medium">
                         <cite className="text-gray-200 not-italic">
                           — Anastasia Dan
-                        </cite>{" "}
-                        -{" "}
+                        </cite>{' '}
+                        -{' '}
                         <a
                           className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                           href="#0"

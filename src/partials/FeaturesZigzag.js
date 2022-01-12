@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function FeaturesZigzag() {
   return (
@@ -28,7 +28,7 @@ function FeaturesZigzag() {
               >
                 <img
                   className="max-w-full mx-auto md:max-w-none h-auto"
-                  src={require("../images/features-03-image-01.png").default}
+                  src={require('../images/features-03-image-01.png').default}
                   width="540"
                   height="405"
                   alt="Features 01"
@@ -94,7 +94,7 @@ function FeaturesZigzag() {
               >
                 <img
                   className="max-w-full mx-auto md:max-w-none h-auto"
-                  src={require("../images/features-03-image-02.png").default}
+                  src={require('../images/features-03-image-02.png').default}
                   width="540"
                   height="405"
                   alt="Features 02"
@@ -160,7 +160,7 @@ function FeaturesZigzag() {
               >
                 <img
                   className="max-w-full mx-auto md:max-w-none h-auto"
-                  src={require("../images/features-03-image-03.png").default}
+                  src={require('../images/features-03-image-03.png').default}
                   width="540"
                   height="405"
                   alt="Features 03"

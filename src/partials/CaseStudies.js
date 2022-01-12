@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function CaseStudies() {
   return (
@@ -24,7 +24,7 @@ function CaseStudies() {
                 <figure className="relative h-0 pb-9/16 overflow-hidden">
                   <img
                     className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                    src={require("../images/news-10.jpg").default}
+                    src={require('../images/news-10.jpg').default}
                     width="352"
                     height="198"
                     alt="News 10"
@@ -80,7 +80,7 @@ function CaseStudies() {
                 <figure className="relative h-0 pb-9/16 overflow-hidden">
                   <img
                     className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                    src={require("../images/news-11.jpg").default}
+                    src={require('../images/news-11.jpg').default}
                     width="352"
                     height="198"
                     alt="News 11"
@@ -136,7 +136,7 @@ function CaseStudies() {
                 <figure className="relative h-0 pb-9/16 overflow-hidden">
                   <img
                     className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                    src={require("../images/news-12.jpg").default}
+                    src={require('../images/news-12.jpg').default}
                     width="352"
                     height="198"
                     alt="News 12"

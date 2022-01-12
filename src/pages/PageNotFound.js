@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import Header from "../partials/Header";
-import PageIllustration from "../partials/PageIllustration";
-import Footer from "../partials/Footer";
+import Header from '../partials/Header';
+import PageIllustration from '../partials/PageIllustration';
+import Footer from '../partials/Footer';
 
 function PageNotFound() {
   return (
@@ -32,7 +32,7 @@ function PageNotFound() {
                 >
                   <img
                     className="rounded-full"
-                    src={require("../images/404.jpg").default}
+                    src={require('../images/404.jpg').default}
                     width="196"
                     height="196"
                     alt="404"
@@ -59,13 +59,13 @@ function PageNotFound() {
                   data-aos="fade-up"
                   data-aos-delay="400"
                 >
-                  Head to our{" "}
+                  Head to our{' '}
                   <Link
                     to="/"
                     className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   >
                     homepage
-                  </Link>{" "}
+                  </Link>{' '}
                   that does exist, or try double-checking the URL.
                 </p>
               </div>

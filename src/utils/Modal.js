@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from "react";
-import PropTypes from "prop-types";
-import Transition from "../utils/Transition.js";
+import React, { useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
+import Transition from '../utils/Transition.js';
 
 function Modal({ children, id, ariaLabel, show, handleClose }) {
   const modalContent = useRef(null);
@@ -11,8 +11,8 @@ function Modal({ children, id, ariaLabel, show, handleClose }) {
       if (!show || modalContent.current.contains(target)) return;
       handleClose();
     };
-    document.addEventListener("click", clickHandler);
-    return () => document.removeEventListener("click", clickHandler);
+    document.addEventListener('click', clickHandler);
+    return () => document.removeEventListener('click', clickHandler);
   });
 
   // close the modal if the esc key is pressed
@@ -21,9 +21,9 @@ function Modal({ children, id, ariaLabel, show, handleClose }) {
       if (keyCode !== 27) return;
       handleClose();
     };
-    document.addEventListener("keydown", keyHandler);
+    document.addEventListener('keydown', keyHandler);
 
-    return () => document.removeEventListener("keydown", keyHandler);
+    return () => document.removeEventListener('keydown', keyHandler);
   });
 
   return (
