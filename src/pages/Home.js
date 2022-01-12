@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react';
 
-import Header from "../partials/Header";
+import Header from '../partials/Header';
 // import PageIllustration from '../partials/PageIllustration';
-import HeroHome from "../partials/HeroHome";
+import HeroHome from '../partials/HeroHome';
 
-import Process from "../partials/Process";
-import SolutionsHome from "../partials/SolutionsHome";
-import Target from "../partials/Target";
+import Process from '../partials/Process';
+import SolutionsHome from '../partials/SolutionsHome';
+import Target from '../partials/Target';
 //import News from '../partials/News';
-import Newsletter from "../partials/Newsletter";
-import Footer from "../partials/Footer";
+import Newsletter from '../partials/Newsletter';
+import Footer from '../partials/Footer';
 
 function Home() {
   return (

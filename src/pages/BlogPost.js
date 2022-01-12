@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import Header from "../partials/Header";
-import PageIllustration from "../partials/PageIllustration";
-import BlogSingle from "../partials/BlogSingle";
-import Newsletter from "../partials/Newsletter";
-import Footer from "../partials/Footer";
+import Header from '../partials/Header';
+import PageIllustration from '../partials/PageIllustration';
+import BlogSingle from '../partials/BlogSingle';
+import Newsletter from '../partials/Newsletter';
+import Footer from '../partials/Footer';
 
 function BlogPost() {
   return (

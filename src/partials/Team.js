@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function Team() {
   return (
@@ -28,7 +28,7 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
-                  src={require("../images/team-member-01.jpg").default}
+                  src={require('../images/team-member-01.jpg').default}
                   width="120"
                   height="120"
                   alt="Team member 01"
@@ -54,7 +54,7 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
-                  src={require("../images/team-member-02.jpg").default}
+                  src={require('../images/team-member-02.jpg').default}
                   width="120"
                   height="120"
                   alt="Team member 02"
@@ -80,7 +80,7 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
-                  src={require("../images/team-member-03.jpg").default}
+                  src={require('../images/team-member-03.jpg').default}
                   width="120"
                   height="120"
                   alt="Team member 03"
@@ -106,7 +106,7 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
-                  src={require("../images/team-member-04.jpg").default}
+                  src={require('../images/team-member-04.jpg').default}
                   width="120"
                   height="120"
                   alt="Team member 04"
@@ -132,7 +132,7 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
-                  src={require("../images/team-member-05.jpg").default}
+                  src={require('../images/team-member-05.jpg').default}
                   width="120"
                   height="120"
                   alt="Team member 05"
@@ -158,7 +158,7 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
-                  src={require("../images/team-member-06.jpg").default}
+                  src={require('../images/team-member-06.jpg').default}
                   width="120"
                   height="120"
                   alt="Team member 06"
@@ -184,7 +184,7 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
-                  src={require("../images/team-member-07.jpg").default}
+                  src={require('../images/team-member-07.jpg').default}
                   width="120"
                   height="120"
                   alt="Team member 07"
@@ -210,7 +210,7 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
-                  src={require("../images/team-member-08.jpg").default}
+                  src={require('../images/team-member-08.jpg').default}
                   width="120"
                   height="120"
                   alt="Team member 08"

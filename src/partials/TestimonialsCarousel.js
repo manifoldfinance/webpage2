@@ -1,5 +1,5 @@
-import React, { useState, useRef, useEffect } from "react";
-import Transition from "../utils/Transition.js";
+import React, { useState, useRef, useEffect } from 'react';
+import Transition from '../utils/Transition.js';
 
 function TestimonialsCarousel() {
   const [active, setActive] = useState(0);
@@ -7,28 +7,28 @@ function TestimonialsCarousel() {
   const [autorotateTiming] = useState(7000);
   const [items] = useState([
     {
-      img: "world-user-01.jpg",
-      alt: "Testimonial 01",
+      img: 'world-user-01.jpg',
+      alt: 'Testimonial 01',
       quote:
-        "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
-      name: "Darya Semenova",
-      role: "Backend Developer",
+        '“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“',
+      name: 'Darya Semenova',
+      role: 'Backend Developer',
     },
     {
-      img: "world-user-02.jpg",
-      alt: "Testimonial 02",
+      img: 'world-user-02.jpg',
+      alt: 'Testimonial 02',
       quote:
-        "“ Not only in my career but in education as well, I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more.“",
-      name: "Greg Sebastian",
-      role: "Head of Design",
+        '“ Not only in my career but in education as well, I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more.“',
+      name: 'Greg Sebastian',
+      role: 'Head of Design',
     },
     {
-      img: "world-user-03.jpg",
-      alt: "Testimonial 03",
+      img: 'world-user-03.jpg',
+      alt: 'Testimonial 03',
       quote:
-        "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
-      name: "Dominik Prasad",
-      role: "Backend Lead",
+        '“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“',
+      name: 'Dominik Prasad',
+      role: 'Backend Lead',
     },
   ]);
 
@@ -41,7 +41,7 @@ function TestimonialsCarousel() {
   const heightFix = () => {
     if (testimonials.current.children[active]) {
       testimonials.current.style.height =
-        testimonials.current.children[active].offsetHeight + "px";
+        testimonials.current.children[active].offsetHeight + 'px';
     }
   };
 
@@ -225,20 +225,20 @@ function TestimonialsCarousel() {
                 >
                   <div
                     className="bottom-0 border-l border-dashed border-gray-500 transform translate-y-8"
-                    style={{ height: "50%" }}
+                    style={{ height: '50%' }}
                   ></div>
                 </div>
                 {/* People pics */}
                 <img
-                  src={require("../images/worldmap.png").default}
+                  src={require('../images/worldmap.png').default}
                   width="672"
                   height="330"
                   alt="World map"
                 />
                 <img
                   className="absolute rounded-full"
-                  style={{ top: "22%", left: "52%" }}
-                  src={require("../images/world-user-01.jpg").default}
+                  style={{ top: '22%', left: '52%' }}
+                  src={require('../images/world-user-01.jpg').default}
                   width="32"
                   height="32"
                   alt="User 01"
@@ -246,8 +246,8 @@ function TestimonialsCarousel() {
                 />
                 <img
                   className="absolute rounded-full"
-                  style={{ top: "50%", left: "58%" }}
-                  src={require("../images/world-user-02.jpg").default}
+                  style={{ top: '50%', left: '58%' }}
+                  src={require('../images/world-user-02.jpg').default}
                   width="48"
                   height="48"
                   alt="User 02"
@@ -256,8 +256,8 @@ function TestimonialsCarousel() {
                 />
                 <img
                   className="absolute rounded-full"
-                  style={{ top: "8.5%", left: "70.5%" }}
-                  src={require("../images/world-user-03.jpg").default}
+                  style={{ top: '8.5%', left: '70.5%' }}
+                  src={require('../images/world-user-03.jpg').default}
                   width="56"
                   height="56"
                   alt="User 02"
@@ -266,8 +266,8 @@ function TestimonialsCarousel() {
                 />
                 <img
                   className="absolute rounded-full"
-                  style={{ top: "34%", left: "76.5%" }}
-                  src={require("../images/world-user-04.jpg").default}
+                  style={{ top: '34%', left: '76.5%' }}
+                  src={require('../images/world-user-04.jpg').default}
                   width="72"
                   height="72"
                   alt="User 04"
@@ -276,8 +276,8 @@ function TestimonialsCarousel() {
                 />
                 <img
                   className="absolute rounded-full"
-                  style={{ top: "29.5%", left: "8.5%" }}
-                  src={require("../images/world-user-05.jpg").default}
+                  style={{ top: '29.5%', left: '8.5%' }}
+                  src={require('../images/world-user-05.jpg').default}
                   width="48"
                   height="48"
                   alt="User 05"
@@ -286,8 +286,8 @@ function TestimonialsCarousel() {
                 />
                 <img
                   className="absolute rounded-full"
-                  style={{ top: "56%", left: "19%" }}
-                  src={require("../images/world-user-06.jpg").default}
+                  style={{ top: '56%', left: '19%' }}
+                  src={require('../images/world-user-06.jpg').default}
                   width="56"
                   height="56"
                   alt="User 06"
@@ -296,8 +296,8 @@ function TestimonialsCarousel() {
                 />
                 <img
                   className="absolute rounded-full"
-                  style={{ top: "20%", left: "24.5%" }}
-                  src={require("../images/world-user-07.jpg").default}
+                  style={{ top: '20%', left: '24.5%' }}
+                  src={require('../images/world-user-07.jpg').default}
                   width="64"
                   height="64"
                   alt="User 07"
@@ -306,8 +306,8 @@ function TestimonialsCarousel() {
                 />
                 <img
                   className="absolute rounded-full"
-                  style={{ top: "39%", left: "43%" }}
-                  src={require("../images/world-user-08.jpg").default}
+                  style={{ top: '39%', left: '43%' }}
+                  src={require('../images/world-user-08.jpg').default}
                   width="40"
                   height="40"
                   alt="User 08"
@@ -356,7 +356,7 @@ function TestimonialsCarousel() {
                     <div className="text-gray-700 font-medium mt-3">
                       <cite className="text-gray-200 not-italic">
                         {item.name}
-                      </cite>{" "}
+                      </cite>{' '}
                       / <span className="text-purple-600">{item.role}</span>
                     </div>
                   </Transition>
@@ -376,7 +376,7 @@ function TestimonialsCarousel() {
                   >
                     <span
                       className={`block w-2 h-2 rounded-full group-hover:bg-gray-400 transition duration-150 ease-in-out ${
-                        active === index ? "bg-gray-200" : "bg-gray-500"
+                        active === index ? 'bg-gray-200' : 'bg-gray-500'
                       }`}
                     ></span>
                   </button>

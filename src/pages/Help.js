@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import Header from "../partials/Header";
-import PageIllustration from "../partials/PageIllustration";
-import Footer from "../partials/Footer";
+import Header from '../partials/Header';
+import PageIllustration from '../partials/PageIllustration';
+import Footer from '../partials/Footer';
 
 function Help() {
   const [page, setPage] = useState(1);
@@ -32,13 +32,13 @@ function Help() {
                 data-aos="fade-up"
               >
                 {/* FAQ’s – Frequently Asked Questions */}
-                <div className={page !== 1 ? "hidden" : undefined}>
+                <div className={page !== 1 ? 'hidden' : undefined}>
                   <div className="mb-8">
                     <h2 className="h2 mb-4">
                       FAQ’s – Frequently Asked Questions
                     </h2>
                     <p className="text-gray-400">
-                      Last updated -{" "}
+                      Last updated -{' '}
                       <span className="text-purple-600">June 30, 2020</span>
                     </p>
                   </div>
@@ -118,11 +118,11 @@ function Help() {
                 </div>
 
                 {/* What is Open PRO */}
-                <div className={page !== 2 ? "hidden" : undefined}>
+                <div className={page !== 2 ? 'hidden' : undefined}>
                   <div className="mb-8">
                     <h2 className="h2 mb-4">What is Open PRO</h2>
                     <p className="text-gray-400">
-                      Last updated -{" "}
+                      Last updated -{' '}
                       <span className="text-purple-600">June 30, 2020</span>
                     </p>
                   </div>
@@ -202,11 +202,11 @@ function Help() {
                 </div>
 
                 {/* Open PRO plan’s features */}
-                <div className={page !== 3 ? "hidden" : undefined}>
+                <div className={page !== 3 ? 'hidden' : undefined}>
                   <div className="mb-8">
                     <h2 className="h2 mb-4">Open PRO plan’s features</h2>
                     <p className="text-gray-400">
-                      Last updated -{" "}
+                      Last updated -{' '}
                       <span className="text-purple-600">June 30, 2020</span>
                     </p>
                   </div>
@@ -286,11 +286,11 @@ function Help() {
                 </div>
 
                 {/* Get started */}
-                <div className={page !== 4 ? "hidden" : undefined}>
+                <div className={page !== 4 ? 'hidden' : undefined}>
                   <div className="mb-8">
                     <h2 className="h2 mb-4">Get started</h2>
                     <p className="text-gray-400">
-                      Last updated -{" "}
+                      Last updated -{' '}
                       <span className="text-purple-600">June 30, 2020</span>
                     </p>
                   </div>
@@ -370,11 +370,11 @@ function Help() {
                 </div>
 
                 {/* Payments FAQ’s */}
-                <div className={page !== 5 ? "hidden" : undefined}>
+                <div className={page !== 5 ? 'hidden' : undefined}>
                   <div className="mb-8">
                     <h2 className="h2 mb-4">Payments FAQ’s</h2>
                     <p className="text-gray-400">
-                      Last updated -{" "}
+                      Last updated -{' '}
                       <span className="text-purple-600">June 30, 2020</span>
                     </p>
                   </div>
@@ -468,7 +468,7 @@ function Help() {
                     <li className="py-2 border-b border-gray-800">
                       <a
                         className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${
-                          page === 1 && "text-purple-600"
+                          page === 1 && 'text-purple-600'
                         }`}
                         href="#0"
                         onClick={(e) => {
@@ -489,7 +489,7 @@ function Help() {
                     <li className="py-2 border-b border-gray-800">
                       <a
                         className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${
-                          page === 2 && "text-purple-600"
+                          page === 2 && 'text-purple-600'
                         }`}
                         href="#0"
                         onClick={(e) => {
@@ -510,7 +510,7 @@ function Help() {
                     <li className="py-2 border-b border-gray-800">
                       <a
                         className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${
-                          page === 3 && "text-purple-600"
+                          page === 3 && 'text-purple-600'
                         }`}
                         href="#0"
                         onClick={(e) => {
@@ -531,7 +531,7 @@ function Help() {
                     <li className="py-2 border-b border-gray-800">
                       <a
                         className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${
-                          page === 4 && "text-purple-600"
+                          page === 4 && 'text-purple-600'
                         }`}
                         href="#0"
                         onClick={(e) => {
@@ -552,7 +552,7 @@ function Help() {
                     <li className="py-2 border-b border-gray-800">
                       <a
                         className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${
-                          page === 5 && "text-purple-600"
+                          page === 5 && 'text-purple-600'
                         }`}
                         href="#0"
                         onClick={(e) => {

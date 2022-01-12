@@ -1,5 +1,5 @@
-import React, { useState, useRef, useEffect } from "react";
-import Transition from "../utils/Transition.js";
+import React, { useState, useRef, useEffect } from 'react';
+import Transition from '../utils/Transition.js';
 
 function Tabs() {
   const [tab, setTab] = useState(1);
@@ -9,7 +9,7 @@ function Tabs() {
   const heightFix = () => {
     if (tabs.current.children[tab - 1]) {
       tabs.current.style.height =
-        tabs.current.children[tab - 1].offsetHeight + "px";
+        tabs.current.children[tab - 1].offsetHeight + 'px';
     }
   };
 
@@ -53,7 +53,7 @@ function Tabs() {
             >
               <button
                 className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${
-                  tab !== 1 && "opacity-50"
+                  tab !== 1 && 'opacity-50'
                 }`}
                 onClick={() => setTab(1)}
               >
@@ -70,7 +70,7 @@ function Tabs() {
               </button>
               <button
                 className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${
-                  tab !== 2 && "opacity-50"
+                  tab !== 2 && 'opacity-50'
                 }`}
                 onClick={() => setTab(2)}
               >
@@ -87,7 +87,7 @@ function Tabs() {
               </button>
               <button
                 className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${
-                  tab !== 3 && "opacity-50"
+                  tab !== 3 && 'opacity-50'
                 }`}
                 onClick={() => setTab(3)}
               >
@@ -104,7 +104,7 @@ function Tabs() {
               </button>
               <button
                 className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${
-                  tab !== 4 && "opacity-50"
+                  tab !== 4 && 'opacity-50'
                 }`}
                 onClick={() => setTab(4)}
               >
@@ -121,7 +121,7 @@ function Tabs() {
               </button>
               <button
                 className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${
-                  tab !== 5 && "opacity-50"
+                  tab !== 5 && 'opacity-50'
                 }`}
                 onClick={() => setTab(5)}
               >
@@ -160,7 +160,7 @@ function Tabs() {
                   <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
                     <img
                       className="w-full h-full object-cover"
-                      src={require("../images/tabs-image-01.jpg").default}
+                      src={require('../images/tabs-image-01.jpg').default}
                       width="516"
                       height="387"
                       alt="Tabs 01"
@@ -211,7 +211,7 @@ function Tabs() {
                   <figure className="md:absolute md:inset-y-0 md:left-0 md:w-1/2">
                     <img
                       className="w-full h-full object-cover"
-                      src={require("../images/hero-image-01.jpg").default}
+                      src={require('../images/hero-image-01.jpg').default}
                       width="516"
                       height="387"
                       alt="Tabs 02"
@@ -262,7 +262,7 @@ function Tabs() {
                   <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
                     <img
                       className="w-full h-full object-cover"
-                      src={require("../images/tabs-image-01.jpg").default}
+                      src={require('../images/tabs-image-01.jpg').default}
                       width="516"
                       height="387"
                       alt="Tabs 01"
@@ -313,7 +313,7 @@ function Tabs() {
                   <figure className="md:absolute md:inset-y-0 md:left-0 md:w-1/2">
                     <img
                       className="w-full h-full object-cover"
-                      src={require("../images/hero-image-01.jpg").default}
+                      src={require('../images/hero-image-01.jpg').default}
                       width="516"
                       height="387"
                       alt="Tabs 02"
@@ -364,7 +364,7 @@ function Tabs() {
                   <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
                     <img
                       className="w-full h-full object-cover"
-                      src={require("../images/tabs-image-01.jpg").default}
+                      src={require('../images/tabs-image-01.jpg').default}
                       width="516"
                       height="387"
                       alt="Tabs 01"

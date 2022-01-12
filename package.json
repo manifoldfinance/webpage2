@@ -27,8 +27,11 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "craco start",
+    "git-info": "echo export default \"{\\\"logMessage\\\": \\\"$(git log -1 --oneline)\\\"}\"  > src/_git_commit.js",
+    "dev": "craco start",
     "build": "craco build",
+    "start": "yarn git-info; craco start",
+    "prod": "yarn git-info; craco build",
     "test": "craco test",
     "eject": "craco eject"
   },

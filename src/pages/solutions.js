@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import Header from "../partials/Header";
-import NetworkTables from "../partials/NetworkTables";
-import Faqs from "../partials/Faqs";
-import Testimonials from "../partials/Testimonials";
-import Cta from "../partials/Cta";
-import Footer from "../partials/Footer";
+import Header from '../partials/Header';
+import NetworkTables from '../partials/NetworkTables';
+import Faqs from '../partials/Faqs';
+import Testimonials from '../partials/Testimonials';
+import Cta from '../partials/Cta';
+import Footer from '../partials/Footer';
 
 function Network() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Stats() {
+function Metrics() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -72,4 +72,4 @@ function Stats() {
   );
 }
 
-export default Stats;
+export default Metrics;

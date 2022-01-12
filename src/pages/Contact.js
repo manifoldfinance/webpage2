@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import Header from "../partials/Header";
-import PageIllustration from "../partials/PageIllustration";
-import CtaContact from "../partials/CtaContact";
-import Footer from "../partials/Footer";
+import Header from '../partials/Header';
+import PageIllustration from '../partials/PageIllustration';
+import CtaContact from '../partials/CtaContact';
+import Footer from '../partials/Footer';
 
 function Contact() {
   return (

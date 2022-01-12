@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function HeroAbout() {
   return (
@@ -7,7 +7,7 @@ function HeroAbout() {
       <div className="absolute inset-0">
         <img
           className="w-full h-full object-cover"
-          src={require("../images/about-hero.jpg").default}
+          src={require('../images/about-hero.jpg').default}
           width="1440"
           height="394"
           alt="About"

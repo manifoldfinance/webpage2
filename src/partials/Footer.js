@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -79,29 +79,29 @@ function Footer() {
                     <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
-                      href={"https://github.com/manifoldfinance"}
+                      href={'https://github.com/manifoldfinance'}
                     >
                       GitHub
                     </a>
                   </li>
                   <li className="mb-1">
                     <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
-                      {" "}
+                      {' '}
                     </Link>
                     <a
                       rel="noopener noreferrer"
-                      href={"https://github.com/manifoldfinance/overview-docs/"}
+                      href={'https://github.com/manifoldfinance/overview-docs/'}
                     >
                       Overview Docs
                     </a>
                   </li>
                   <li className="mb-1">
                     <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
-                      {" "}
+                      {' '}
                     </Link>
                     <a
                       rel="noopener noreferrer"
-                      href={"https://t.me/manifoldfinance"}
+                      href={'https://t.me/manifoldfinance'}
                     >
                       Telegram
                     </a>
@@ -111,7 +111,7 @@ function Footer() {
                     <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
-                      href={"https://github.com/manifoldfinance/pki"}
+                      href={'https://github.com/manifoldfinance/pki'}
                     >
                       Security
                     </a>
@@ -144,17 +144,17 @@ function Footer() {
                       rel="noopener noreferrer"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     >
-                      {" "}
+                      {' '}
                     </Link>
                     Partners
                   </li>
                   <li className="mb-1">
                     <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
-                      {" "}
+                      {' '}
                     </Link>
                     <a
                       rel="noopener noreferrer"
-                      href={"https://github.com/manifoldfinance/legal"}
+                      href={'https://github.com/manifoldfinance/legal'}
                     >
                       Legal
                     </a>
@@ -171,7 +171,7 @@ function Footer() {
               <li>
                 <Link
                   href="https://twitter.com/foldfinance"
-                  target="_blank"
+                  target="https://twitter.com/foldfinance"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 rounded-full transition duration-150 ease-in-out hover:text-gray-100 hover:bg-purple-600"
                   aria-label="Twitter"
@@ -188,7 +188,7 @@ function Footer() {
               <li className="ml-4">
                 <Link
                   href="https://github.com/manifoldfinance"
-                  target="_blank"
+                  target="https://github.com/manifoldfinance"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 rounded-full transition duration-150 ease-in-out hover:text-gray-100 hover:bg-purple-600"
                   aria-label="Github"
@@ -206,7 +206,7 @@ function Footer() {
 
             {/* Copyrights note */}
             <div className="mr-4 text-sm text-gray-400">
-              &copy; 2022 CommodityStream LP - . All rights reserved.
+              &copy; 2022 CommodityStream LP - All rights reserved.
             </div>
           </div>
         </div>

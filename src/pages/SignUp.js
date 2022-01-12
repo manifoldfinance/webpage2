@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import Header from "../partials/Header";
-import PageIllustration from "../partials/PageIllustration";
+import Header from '../partials/Header';
+import PageIllustration from '../partials/PageIllustration';
 
 function SignUp() {
   return (
@@ -138,7 +138,7 @@ function SignUp() {
                   </div>
                   <div className="text-sm text-gray-500 text-center">
                     I agree to be contacted by Open PRO about this offer as per
-                    the Open PRO{" "}
+                    the Open PRO{' '}
                     <Link
                       to="#"
                       className="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out"
@@ -156,7 +156,7 @@ function SignUp() {
                   </div>
                 </form>
                 <div className="text-gray-400 text-center mt-6">
-                  Already using Open PRO?{" "}
+                  Already using Open PRO?{' '}
                   <Link
                     to="signin"
                     className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"

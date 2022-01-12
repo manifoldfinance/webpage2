@@ -1,21 +1,21 @@
 /* eslint-disable */
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 function NetworkTables() {
   const [value, setValue] = useState(true);
 
   const [priceOutput] = useState({
     plan1: {
-      false: ["$", "55", "/mo"],
-      true: ["$", "49", "/mo"],
+      false: ['$', '55', '/mo'],
+      true: ['$', '49', '/mo'],
     },
     plan2: {
-      false: ["$", "85", "/mo"],
-      true: ["$", "79", "/mo"],
+      false: ['$', '85', '/mo'],
+      true: ['$', '79', '/mo'],
     },
     plan3: {
-      false: ["$", "135", "/mo"],
-      true: ["$", "129", "/mo"],
+      false: ['$', '135', '/mo'],
+      true: ['$', '129', '/mo'],
     },
   });
 
