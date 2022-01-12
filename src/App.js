@@ -37,7 +37,21 @@ function App() {
   }, [location.pathname]); // triggered on route change
 
   return (
+    
     <>
+<AuthContext.Provider
+      value={{
+        state,
+        dispatch
+      }}
+    >
+    <Router>
+      <Switch>
+        <Route path="/login" component={Login}/>
+        <Route path="/" component={Home}/>
+      </Switch>
+    </Router>
+    </AuthContext.Provider>
       <Switch>
         <Route exact path="/">
           <Home />
