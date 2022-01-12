@@ -25,9 +25,9 @@ function SignUp() {
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
               {/* Page header */}
               <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                <h1 className="h1">
-                  Welcome. We exist to make entrepreneurship easier.
-                </h1>
+                <h2 className="h2">
+                  Request User Access
+                </h2>
               </div>
 
               {/* Form */}
