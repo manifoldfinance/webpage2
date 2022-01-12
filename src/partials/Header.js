@@ -79,18 +79,18 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/pricing"
+                  to="/platform"
                   className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
                 >
-                  Pricing
+                  Platform
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/blog"
+                  to="/forums"
                   className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
                 >
-                  Blog
+                  Forums
                 </Link>
               </li>
               <li>
@@ -196,18 +196,18 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="/pricing"
+                    to="/platform"
                     className="flex py-2 text-gray-300 hover:text-gray-200"
                   >
-                    Pricing
+                    Platform
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="/blog"
+                    to="/forum"
                     className="flex py-2 text-gray-300 hover:text-gray-200"
                   >
-                    Blog
+                    Forums
                   </Link>
                 </li>
                 <li>

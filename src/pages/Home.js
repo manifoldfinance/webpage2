@@ -5,7 +5,7 @@ import Header from "../partials/Header";
 import HeroHome from "../partials/HeroHome";
 
 import Process from "../partials/Process";
-
+import SolutionsHome from "../partials/SolutionsHome";
 import Target from "../partials/Target";
 //import News from '../partials/News';
 import Newsletter from "../partials/Newsletter";
@@ -26,6 +26,7 @@ function Home() {
 
         <Process />
 
+        <SolutionsHome />
         <Target />
         <Newsletter />
       </main>
