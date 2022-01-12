@@ -4,9 +4,9 @@ import Header from "../partials/Header";
 import PageIllustration from "../partials/PageIllustration";
 import HeroFeatures from "../partials/HeroFeatures";
 import Stats from "../partials/Stats";
-import FeaturesZigzag from "../partials/FeaturesZigzag";
+//import FeaturesZigzag from "../partials/FeaturesZigzag";
 import FeaturesBlocks from "../partials/FeaturesBlocks";
-import CaseStudies from "../partials/CaseStudies";
+//import CaseStudies from "../partials/CaseStudies";
 import Cta from "../partials/Cta";
 import Footer from "../partials/Footer";
 
@@ -29,9 +29,9 @@ function Features() {
         {/*  Page sections */}
         <HeroFeatures />
         <Stats />
-        <FeaturesZigzag />
+
         <FeaturesBlocks />
-        <CaseStudies />
+
         <Cta />
       </main>
 

@@ -62,10 +62,10 @@ function SolutionsHome() {
                   <div className="font-fira-sans text-xl text-purple-600 mb-2">
                     Leading Smart Order Routing
                   </div>
-                  <h3 className="h3 mb-3">Performance starts here.</h3>
+                  <h3 className="h3 mb-3">Maximal Extracted Value</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                  Improved transparency of profit opportunities and reduce information asymmetry, automatically. 
-                  We connect with the leading Block Production pools to ensure  efficient transaction protection and value maximization.
+                  With improved transparency of profit opportunities and  a reduction in information asymmetry,
+                  we connect with the leading Block Production pools to ensure  efficient transaction protection and value maximization.
                   </p>
                   <ul className="flex flex-wrap text-lg text-gray-400 -mx-2 -my-1">
                     <li className="flex items-center mx-2 my-1">
@@ -75,7 +75,7 @@ function SolutionsHome() {
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>SQL Queries</span>
+                      <span>Multichain support</span>
                     </li>
                     <li className="flex items-center mx-2 my-1">
                       <svg
@@ -84,7 +84,7 @@ function SolutionsHome() {
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Trace Transaction</span>
+                      <span>Debug failing transactions</span>
                     </li>
                     <li className="flex items-center mx-2 my-1">
                       <svg
@@ -102,7 +102,7 @@ function SolutionsHome() {
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>More Accessible</span>
+                      <span>More publicly accessible</span>
                     </li>
                     <li className="flex items-center mx-2 my-1">
                       <svg
@@ -111,7 +111,7 @@ function SolutionsHome() {
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span></span>
+                      <span>ZK-based reputation system</span>
                     </li>
                   </ul>
                 </div>

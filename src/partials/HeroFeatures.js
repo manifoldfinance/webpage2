@@ -46,23 +46,22 @@ function HeroFeatures() {
           {/* Content */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Keep track of every important detail
+              Maximally Extracted Value
             </h1>
             <p
               className="text-xl text-gray-400"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Every feature in Open PRO makes things easy to build, pleasant to
-              create, and simple to manage.
+              MEV Adjusted Arrival Price
             </p>
           </div>
           {/* Image */}
           <img
             className="mx-auto"
-            src={require("../images/hero-image-02.png").default}
-            width="768"
-            height="432"
+            src={require("../images/vecrv.svg").default}
+            width="425"
+            height="425"
             alt="Hero"
             data-aos="fade-up"
             data-aos-delay="400"

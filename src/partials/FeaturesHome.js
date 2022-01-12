@@ -18,7 +18,7 @@ function FeaturesHome() {
                 <div className="relative">
                   <img
                     className="md:max-w-none"
-                    src={require("../images/features-illustration.png").default}
+                    src={require("../images/globe.svg").default}
                     width="540"
                     height="520"
                     alt="Features illustration"
