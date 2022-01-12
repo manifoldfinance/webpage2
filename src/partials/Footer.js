@@ -42,14 +42,14 @@ function Footer() {
             <div className="grid gap-8 md:col-span-8 lg:col-span-7 sm:grid-cols-3">
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="mb-1 font-medium text-gray-200">Products</h6>
+                <h6 className="mb-1 font-medium text-gray-200">Solutions</h6>
                 <ul>
                   <li className="mb-1">
                     <Link
                       to="#"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     >
-                      Web Studio
+                      OpenMEV
                     </Link>
                   </li>
                   <li className="mb-1">
@@ -57,7 +57,7 @@ function Footer() {
                       to="#"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     >
-                      DynamicBox Flex
+                      SecureRPC
                     </Link>
                   </li>
                   <li className="mb-1">
@@ -65,7 +65,7 @@ function Footer() {
                       to="#"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     >
-                      Programming Forms
+                      MultiChain Settlement
                     </Link>
                   </li>
                 </ul>
@@ -90,9 +90,9 @@ function Footer() {
                     </Link>
                     <a
                       rel="noopener noreferrer"
-                      href={"https://manifoldfinance.github.io/hub//"}
+                      href={"https://github.com/manifoldfinance/overview-docs/"}
                     >
-                      Documentation
+                      Overview Docs
                     </a>
                   </li>
                   <li className="mb-1">
