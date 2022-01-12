@@ -1,0 +1,35 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="14.398"
+  height="14.398"
+  viewBox="0 0 14.398 14.398"
+>
+  <g
+    id="Icon_feather-arrow-down-right"
+    data-name="Icon feather-arrow-down-right"
+    transform="translate(1.414 1.414)"
+  >
+    <path
+      id="Path_74"
+      data-name="Path 74"
+      d="M10.5,10.5,22.07,22.07"
+      transform="translate(-10.5 -10.5)"
+      fill="none"
+      stroke="#f0efef"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+    />
+    <path
+      id="Path_75"
+      data-name="Path 75"
+      d="M22.07,10.5V22.07H10.5"
+      transform="translate(-10.5 -10.5)"
+      fill="none"
+      stroke="#f0efef"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+    />
+  </g>
+</svg>

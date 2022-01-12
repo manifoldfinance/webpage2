@@ -1,4 +1,4 @@
-# nodejs.yml
+# CI for command line NodeJS Applications
 name: nodejs
 on:
   push:
@@ -6,14 +6,9 @@ on:
       - "**/**"
       - "!**/*.md/**"
 
-defaults:
-  run:
-    shell: bash
-      
 env:
-  CI: true
+  CI: false
   FORCE_COLOR: 2
-
 
 jobs:
   pipeline:
@@ -23,8 +18,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node: ['14.x']
-        os: ['ubuntu-latest']
+        node: ['16.x']
+        os: ['ubuntu-latest', 'macos-latest']
 
     steps:
       - name: Clone repository
@@ -37,9 +32,9 @@ jobs:
           cache: 'yarn'
 
       - name: Install npm dependencies
-        run: |
-         yarn install
-         echo "::set-output name=install::nodejs"
+        run: yarn install
+        id: install
+
       - name: Run build
         run: yarn run build
         id: build
