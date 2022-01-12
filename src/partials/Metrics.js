@@ -11,8 +11,7 @@ function Metrics() {
               Integrated workflow designed for product teams
             </h1>
             <p className="text-xl text-gray-400">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit laborum — semper quis lectus nulla.
+              placeholder
             </p>
           </div>
 

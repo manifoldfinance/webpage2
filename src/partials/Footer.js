@@ -12,7 +12,7 @@ function Footer() {
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
                 {/* Logo */}
-                <Link to="/" className="inline-block" aria-label="Cruip">
+                <Link to="/" className="inline-block" aria-label="Footer">
                   <svg
                     width="32"
                     height="32"
@@ -35,18 +35,18 @@ function Footer() {
                   </svg>
                 </Link>
               </div>
-              <div className="text-gray-400">LEI: 2549005ODLPS9WT4VE61</div>
+              <div className="text-gray-400"></div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
             <div className="grid gap-8 md:col-span-8 lg:col-span-7 sm:grid-cols-3">
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="mb-1 font-medium text-gray-200">Solutions</h6>
+                <h6 className="mb-1 font-medium text-gray-200">Development</h6>
                 <ul>
                   <li className="mb-1">
                     <Link
-                      to="#"
+                      to="https://docs.openmev.org"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     >
                       OpenMEV
@@ -54,18 +54,18 @@ function Footer() {
                   </li>
                   <li className="mb-1">
                     <Link
-                      to="#"
+                      to="https://status.manifoldfinance.com/"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     >
-                      SecureRPC
+                      Platform Status
                     </Link>
                   </li>
                   <li className="mb-1">
                     <Link
-                      to="#"
+                      to="https://github.com/manifoldfinance/disco3-react#disco3"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     >
-                      MultiChain Settlement
+                      Disco3 React
                     </Link>
                   </li>
                 </ul>
@@ -90,9 +90,9 @@ function Footer() {
                     </Link>
                     <a
                       rel="noopener noreferrer"
-                      href={'https://github.com/manifoldfinance/overview-docs/'}
+                      href={'https://forums.manifoldfinance.com'}
                     >
-                      Overview Docs
+                      Community Forums
                     </a>
                   </li>
                   <li className="mb-1">
@@ -132,21 +132,21 @@ function Footer() {
                   </li>
                   <li className="mb-1">
                     <Link
-                      href="#"
+                      href="https://github.com/manifoldfinance/legal/blob/master/service/terms_of_service.md"
                       rel="noopener noreferrer"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     ></Link>
-                    Roadmap
+                    Terms of Service
                   </li>
                   <li className="mb-1">
                     <Link
-                      href="#"
+                      href="https://github.com/manifoldfinance/legal/blob/master/service/privacy_policy.md#platform-privacy-policy"
                       rel="noopener noreferrer"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     >
                       {' '}
                     </Link>
-                    Partners
+                    Privacy Policy
                   </li>
                   <li className="mb-1">
                     <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">

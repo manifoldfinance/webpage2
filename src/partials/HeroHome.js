@@ -27,7 +27,7 @@ function HeroHome() {
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
                   className="mb-4 w-full text-black bg-white btn hover:bg-white sm:w-auto sm:mb-0"
-                  to="#"
+                  to="https://github.com/manifoldfinance/overview-docs#manifold-finance---platform-overview"
                 >
                   Get Started
                 </a>
@@ -35,7 +35,7 @@ function HeroHome() {
               <div data-aos="fade-up" data-aos-delay="600">
                 <a
                   className="w-full text-white bg-gray-700 btn hover:bg-gray-800 sm:w-auto sm:ml-4"
-                  to="#"
+                  to="https://docs.openmev.org/"
                 >
                   Learn more
                 </a>
