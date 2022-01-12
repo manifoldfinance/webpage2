@@ -23,7 +23,9 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-
+        <br />
+        <br />
+   
         <Process />
 
         <SolutionsHome />

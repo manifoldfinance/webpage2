@@ -1,1 +1,1 @@
-export default {"logMessage": "70cf65b feat: report version (#4)"}
+export default {"logMessage": "66653af chore: cleanup"}
