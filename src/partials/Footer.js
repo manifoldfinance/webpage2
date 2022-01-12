@@ -135,16 +135,23 @@ function Footer() {
                     <Link
                       to="https://github.com/manifoldfinance/disco3-react#disco3"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
-                    ></Link>
-                    Overview
+                    >         </Link>
+                      <a 
+                      href="https://manifoldfinance.github.io/primitives/"
+                      rel="noopener noreferrer"
+                      > 
+                    Engineering Blog
+                    </a>
+           
                   </li>
                   <li className="mb-1">
                     <Link
                       to="https://github.com/manifoldfinance/legal/blob/master/service/terms_of_service.md"
                       rel="noopener noreferrer"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
-                    ></Link>
+                    >
                     Terms of Service
+                    </Link>
                   </li>
                   <li className="mb-1">
                     <Link
@@ -154,7 +161,12 @@ function Footer() {
                     >
                       {' '}
                     </Link>
+                    <a 
+                       rel="noopener noreferrer"
+                    href="https://github.com/manifoldfinance/legal/blob/master/service/privacy_policy.md#platform-privacy-policy"
+                   >
                     Privacy Policy
+                    </a>
                   </li>
                   <li className="mb-1">
                     <Link 
