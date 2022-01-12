@@ -21,9 +21,26 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import PageNotFound from './pages/PageNotFound';
+import { Home as OAuth } from "./users/OAuth";
+import Login from "./users/Login";
+import { initialState, reducer } from "./users/reducer";
+
+import LoginGithub from 'react-login-github';
+
+const onSuccess = response => console.log(response);
+const onFailure = response => console.error(response);
+
+ReactDOM.render(
+  <LoginGithub clientId="2c563d0c75e52ebb1ff8"
+    onSuccess={onSuccess}
+    onFailure={onFailure}/>,
+  document.getElementById('signin')
+);
+
+export const AuthContext = createContext();
 
 function App() {
-
+  const [state, dispatch] = useReducer(reducer, initialState);
   const location = useLocation();
 
   useEffect(() => {
@@ -42,7 +59,21 @@ function App() {
   }, [location.pathname]); // triggered on route change
 
   return (
+    
     <>
+<AuthContext.Provider
+      value={{
+        state,
+        dispatch
+      }}
+    >
+    <Router>
+      <Switch>
+        <Route path="/login" component={Login}/>
+        <Route path="/" component={Home}/>
+      </Switch>
+    </Router>
+    </AuthContext.Provider>
       <Switch>
         <Route exact path="/">
           <Home />
