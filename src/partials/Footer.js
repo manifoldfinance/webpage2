@@ -76,7 +76,9 @@ function Footer() {
                 <h6 className="mb-1 font-medium text-gray-200">Resources</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
+                    <Link 
+                     to="https://github.com/manifoldfinance/disco3-react#disco3"
+                    className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
                       href={'https://github.com/manifoldfinance'}
@@ -85,7 +87,9 @@ function Footer() {
                     </a>
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
+                    <Link 
+                     to="https://github.com/manifoldfinance/disco3-react#disco3"
+                    className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
                       {' '}
                     </Link>
                     <a
@@ -96,7 +100,9 @@ function Footer() {
                     </a>
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
+                    <Link 
+                   to="https://github.com/manifoldfinance/disco3-react#disco3"
+                    className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
                       {' '}
                     </Link>
                     <a
@@ -108,7 +114,9 @@ function Footer() {
                   </li>
 
                   <li className="mb-1">
-                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
+                    <Link 
+                    to="https://github.com/manifoldfinance/disco3-react#disco3"
+                    className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
                       href={'https://github.com/manifoldfinance/pki'}
@@ -125,14 +133,14 @@ function Footer() {
                 <ul>
                   <li className="mb-1">
                     <Link
-                      href="#"
+                      to="https://github.com/manifoldfinance/disco3-react#disco3"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     ></Link>
                     Overview
                   </li>
                   <li className="mb-1">
                     <Link
-                      href="https://github.com/manifoldfinance/legal/blob/master/service/terms_of_service.md"
+                      to="https://github.com/manifoldfinance/legal/blob/master/service/terms_of_service.md"
                       rel="noopener noreferrer"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     ></Link>
@@ -140,7 +148,7 @@ function Footer() {
                   </li>
                   <li className="mb-1">
                     <Link
-                      href="https://github.com/manifoldfinance/legal/blob/master/service/privacy_policy.md#platform-privacy-policy"
+                      to="https://github.com/manifoldfinance/legal/blob/master/service/privacy_policy.md#platform-privacy-policy"
                       rel="noopener noreferrer"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     >
@@ -149,7 +157,9 @@ function Footer() {
                     Privacy Policy
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
+                    <Link 
+                    to="https://github.com/manifoldfinance/disco3-react#disco3"
+                    className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
                       {' '}
                     </Link>
                     <a
@@ -170,8 +180,7 @@ function Footer() {
             <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
               <li>
                 <Link
-                  href="https://twitter.com/foldfinance"
-                  target="https://twitter.com/foldfinance"
+                  to="https://twitter.com/foldfinance"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 rounded-full transition duration-150 ease-in-out hover:text-gray-100 hover:bg-purple-600"
                   aria-label="Twitter"
@@ -187,8 +196,7 @@ function Footer() {
               </li>
               <li className="ml-4">
                 <Link
-                  href="https://github.com/manifoldfinance"
-                  target="https://github.com/manifoldfinance"
+                  to="https://github.com/manifoldfinance"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 rounded-full transition duration-150 ease-in-out hover:text-gray-100 hover:bg-purple-600"
                   aria-label="Github"
