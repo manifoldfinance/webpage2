@@ -1,9 +1,5 @@
 import React, { useEffect } from 'react';
-import {
-  Switch,
-  Route,
-  useLocation
-} from 'react-router-dom';
+import { Switch, Route, useLocation } from 'react-router-dom';
 
 import './css/style.scss';
 
@@ -21,20 +17,22 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import PageNotFound from './pages/PageNotFound';
-import { Home as OAuth } from "./users/OAuth";
-import Login from "./users/Login";
-import { initialState, reducer } from "./users/reducer";
+import { Home as OAuth } from './users/OAuth';
+import Login from './users/Login';
+import { initialState, reducer } from './users/reducer';
 
 import LoginGithub from 'react-login-github';
 
-const onSuccess = response => console.log(response);
-const onFailure = response => console.error(response);
+const onSuccess = (response) => console.log(response);
+const onFailure = (response) => console.error(response);
 
 ReactDOM.render(
-  <LoginGithub clientId="2c563d0c75e52ebb1ff8"
+  <LoginGithub
+    clientId="2c563d0c75e52ebb1ff8"
     onSuccess={onSuccess}
-    onFailure={onFailure}/>,
-  document.getElementById('signin')
+    onFailure={onFailure}
+  />,
+  document.getElementById('signin'),
 );
 
 export const AuthContext = createContext();
@@ -53,27 +51,26 @@ function App() {
   });
 
   useEffect(() => {
-    document.querySelector('html').style.scrollBehavior = 'auto'
-    window.scroll({ top: 0 })
-    document.querySelector('html').style.scrollBehavior = ''
+    document.querySelector('html').style.scrollBehavior = 'auto';
+    window.scroll({ top: 0 });
+    document.querySelector('html').style.scrollBehavior = '';
   }, [location.pathname]); // triggered on route change
 
   return (
-    
     <>
-<AuthContext.Provider
-      value={{
-        state,
-        dispatch
-      }}
-    >
-    <Router>
-      <Switch>
-        <Route path="/login" component={Login}/>
-        <Route path="/" component={Home}/>
-      </Switch>
-    </Router>
-    </AuthContext.Provider>
+      <AuthContext.Provider
+        value={{
+          state,
+          dispatch,
+        }}
+      >
+        <Router>
+          <Switch>
+            <Route path="/login" component={Login} />
+            <Route path="/" component={Home} />
+          </Switch>
+        </Router>
+      </AuthContext.Provider>
       <Switch>
         <Route exact path="/">
           <Home />

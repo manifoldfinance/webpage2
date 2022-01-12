@@ -14,15 +14,16 @@ import Footer from '../partials/Footer';
 function Home() {
   return (
     <div className="flex overflow-hidden flex-col min-h-screen">
-
       {/*  Site header */}
       <Header />
 
       {/*  Page content */}
       <main className="grow">
-
         {/*  Page illustration */}
-        <div className="relative mx-auto max-w-6xl h-0 pointer-events-none" aria-hidden="true">
+        <div
+          className="relative mx-auto max-w-6xl h-0 pointer-events-none"
+          aria-hidden="true"
+        >
           <PageIllustration />
         </div>
 
@@ -34,12 +35,10 @@ function Home() {
         <Target />
         <News />
         <Newsletter />
-
       </main>
 
       {/*  Site footer */}
       <Footer />
-
     </div>
   );
 }

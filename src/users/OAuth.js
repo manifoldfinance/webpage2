@@ -1,8 +1,7 @@
-import React, { useContext } from "react";
-import { Redirect } from "react-router-dom";
-import Styled from "styled-components";
-import { AuthContext } from "../App";
-
+import React, { useContext } from 'react';
+import { Redirect } from 'react-router-dom';
+import Styled from 'styled-components';
+import { AuthContext } from '../App';
 
 export default function Home() {
   const { state, dispatch } = useContext(AuthContext);
@@ -11,21 +10,21 @@ export default function Home() {
     return <Redirect to="/login" />;
   }
 
-  const { avatar_url, name, public_repos, followers, following } = state.user
+  const { avatar_url, name, public_repos, followers, following } = state.user;
 
   const handleLogout = () => {
     dispatch({
-      type: "LOGOUT"
+      type: 'LOGOUT',
     });
-  } 
+  };
 
   return (
     <Wrapper>
       <div className="container">
-        <button onClick={()=> handleLogout()}>Logout</button>
+        <button onClick={() => handleLogout()}>Logout</button>
         <div>
           <div className="content">
-            <img src={avatar_url} alt="Avatar"/>
+            <img src={avatar_url} alt="Avatar" />
             <span>{name}</span>
             <span>{public_repos} Repos</span>
             <span>{followers} Followers</span>

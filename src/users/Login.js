@@ -1,49 +1,48 @@
-import React, { useState, useEffect, useContext } from "react";
-import { Redirect } from "react-router-dom";
-import Styled from "styled-components";
-import GithubIcon from "mdi-react/GithubIcon";
-import { AuthContext } from "../App";
-
+import React, { useState, useEffect, useContext } from 'react';
+import { Redirect } from 'react-router-dom';
+import Styled from 'styled-components';
+import GithubIcon from 'mdi-react/GithubIcon';
+import { AuthContext } from '../App';
 
 export default function Login() {
   const { state, dispatch } = useContext(AuthContext);
-  const [data, setData] = useState({ errorMessage: "", isLoading: false });
+  const [data, setData] = useState({ errorMessage: '', isLoading: false });
 
   const { client_id, redirect_uri } = state;
 
   useEffect(() => {
     // After requesting Github access, Github redirects back to your app with a code parameter
     const url = window.location.href;
-    const hasCode = url.includes("?code=");
+    const hasCode = url.includes('?code=');
 
     // If Github API returns the code parameter
     if (hasCode) {
-      const newUrl = url.split("?code=");
+      const newUrl = url.split('?code=');
       window.history.pushState({}, null, newUrl[0]);
       setData({ ...data, isLoading: true });
 
       const requestData = {
-        code: newUrl[1]
+        code: newUrl[1],
       };
 
       const proxy_url = state.proxy_url;
 
       // Use code parameter and other parameters to make POST request to proxy_server
       fetch(proxy_url, {
-        method: "POST",
-        body: JSON.stringify(requestData)
+        method: 'POST',
+        body: JSON.stringify(requestData),
       })
-        .then(response => response.json())
-        .then(data => {
+        .then((response) => response.json())
+        .then((data) => {
           dispatch({
-            type: "LOGIN",
-            payload: { user: data, isLoggedIn: true }
+            type: 'LOGIN',
+            payload: { user: data, isLoggedIn: true },
           });
         })
-        .catch(error => {
+        .catch((error) => {
           setData({
             isLoading: false,
-            errorMessage: "Sorry! Login failed"
+            errorMessage: 'Sorry! Login failed',
           });
         });
     }
@@ -74,7 +73,7 @@ export default function Login() {
                   className="login-link"
                   href={`https://github.com/login/oauth/authorize?scope=user&client_id=${client_id}&redirect_uri=${redirect_uri}`}
                   onClick={() => {
-                    setData({ ...data, errorMessage: "" });
+                    setData({ ...data, errorMessage: '' });
                   }}
                 >
                   <GithubIcon />
