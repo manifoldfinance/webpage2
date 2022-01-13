@@ -87,14 +87,6 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/forums"
-                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
-                >
-                  Forums
-                </Link>
-              </li>
-              <li>
-                <Link
                   to="/about"
                   className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
                 >
@@ -142,12 +134,12 @@ function Header() {
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/signup"
+                  <a
                   className="ml-3 text-white bg-purple-600 btn-sm hover:bg-purple-700"
-                >
+                  href="https://staking.manifoldfinance.com"
+                > 
                   Staking
-                </Link>
+                  </a>
               </li>
             </ul>
           </nav>
@@ -200,14 +192,6 @@ function Header() {
                     className="flex py-2 text-gray-300 hover:text-gray-200"
                   >
                     Platform
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/forum"
-                    className="flex py-2 text-gray-300 hover:text-gray-200"
-                  >
-                    Forums
                   </Link>
                 </li>
                 <li>
