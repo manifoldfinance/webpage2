@@ -68,61 +68,62 @@ function Header() {
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
             {/* Desktop menu links */}
-            <ul className="flex flex-wrap justify-end items-center grow">
-              <li>
-                <Link
-                  to="/features"
-                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
-                >
-                  Features
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/platform"
-                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
-                >
-                  Platform
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/about"
-                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
-                >
-                  About us
-                </Link>
-              </li>
-              {/* 1st level: hover */}
-              <Dropdown title="Support">
-                {/* 2nd level: hover */}
-                <li>
-                  <Link
-                    to="/contact"
-                    className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600"
-                  >
-                    Contact us
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/help"
-                    className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600"
-                  >
-                    Help center
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/404"
-                    className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600"
-                  >
-                    404
-                  </Link>
-                </li>
-              </Dropdown>
-            </ul>
+{/**
+<ul className="flex flex-wrap justify-end items-center grow">
+<li>
+  <Link
+    to="/features"
+    className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
+  >
+    Features
+  </Link>
+</li>
+<li>
+  <Link
+    to="/platform"
+    className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
+  >
+    Platform
+  </Link>
+</li>
+<li>
+  <Link
+    to="/about"
+    className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
+  >
+    About us
+  </Link>
+</li>
 
+<Dropdown title="Support">
+
+  <li>
+    <Link
+      to="/contact"
+      className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600"
+    >
+      Contact us
+    </Link>
+  </li>
+  <li>
+    <Link
+      to="/help"
+      className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600"
+    >
+      Help center
+    </Link>
+  </li>
+  <li>
+    <Link
+      to="/404"
+      className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600"
+    >
+      404
+    </Link>
+  </li>
+</Dropdown>
+</ul>
+ */}
             {/* Desktop sign in links */}
             <ul className="flex flex-wrap justify-end items-center grow">
               <li>
