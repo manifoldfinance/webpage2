@@ -42,6 +42,7 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
+{/**         
         <Route path="/features">
           <Features />
         </Route>
@@ -62,7 +63,8 @@ function App() {
         </Route>
         <Route path="/help">
           <Help />
-        </Route>
+        </Route> 
+*/}
         <Route path="/signin">
           <SignIn />
         </Route>

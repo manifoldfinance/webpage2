@@ -1,6 +1,6 @@
 {
   "name": "@manifoldfinance/website",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.3.0",
@@ -28,10 +28,10 @@
   },
   "scripts": {
     "git-info": "echo export default \"{\\\"logMessage\\\": \\\"$(git log -1 --oneline)\\\"}\"  > src/_git_commit.js",
-    "dev": "craco start",
+    "dev": "NODE_ENV=development craco start",
     "build": "craco build",
     "start": "yarn git-info; craco start",
-    "prod": "yarn git-info; craco build",
+    "prod": "yarn git-info; NODE_ENV=production craco build",
     "test": "craco test",
     "eject": "craco eject"
   },

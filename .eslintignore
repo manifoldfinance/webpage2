@@ -1,0 +1,7 @@
+# eslintignore
+src/App.js
+
+src/partials/Header.js
+src/partials/HeroHome.js
+src/partials/Testimonials.js
+src/utils/Dropdown.js
