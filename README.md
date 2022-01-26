@@ -7,6 +7,7 @@
 ## Development
 
 ### Devtools
+
 ```sh
 npm i -g react-devtools
 ```
@@ -14,15 +15,17 @@ npm i -g react-devtools
 Add the tag
 
 ```html
-  <script src="http://localhost:8097"></script>
+<script src="http://localhost:8097"></script>
 ```
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <script src="http://localhost:8097"></script>
-```    
+  </head>
+</html>
+```
 
 ### License
 
