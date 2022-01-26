@@ -1,8 +1,12 @@
-# [manifold.zone](https://manifold.zone)
+# [manifoldfinance.com](https://manifoldfinance.com)
+
+> alt: [manifold.zone](https://manifold.zone)
 
 ---
 
-> React WebApp
+[![nodejs](https://github.com/manifoldfinance/webpage2/actions/workflows/nodejs.yml/badge.svg)](https://github.com/manifoldfinance/webpage2/actions/workflows/nodejs.yml)
+
+> ReactJS WebApp Portal
 
 ## Development
 
