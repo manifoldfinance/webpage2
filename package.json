@@ -1,6 +1,6 @@
 {
   "name": "@manifoldfinance/website",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.3.0",
