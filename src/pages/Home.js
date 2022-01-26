@@ -25,7 +25,7 @@ function Home() {
         <HeroHome />
         <br />
         <br />
-   
+
         <Process />
 
         <SolutionsHome />

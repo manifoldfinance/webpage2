@@ -123,33 +123,30 @@ function Header() {
               </Dropdown>
             </ul>
 
-  <li>
-    <Link
-      to="/contact"
-      className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600"
-    >
-      Contact us
-    </Link>
-  </li>
-  <li>
-    <Link
-      to="/help"
-      className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600"
-    >
-      Help center
-    </Link>
-  </li>
-  <li>
-    <Link
-      to="/404"
-      className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600"
-    >
-      404
-    </Link>
-  </li>
-</Dropdown>
-</ul>
- */}
+            <li>
+              <Link
+                to="/contact"
+                className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600"
+              >
+                Contact us
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/help"
+                className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600"
+              >
+                Help center
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/404"
+                className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600"
+              >
+                404
+              </Link>
+            </li>
             {/* Desktop sign in links */}
             <ul className="flex flex-wrap justify-end items-center grow">
               <li>
@@ -161,12 +158,12 @@ function Header() {
                 </Link>
               </li>
               <li>
-                  <a
+                <a
                   className="ml-3 text-white bg-purple-600 btn-sm hover:bg-purple-700"
                   href="https://staking.manifoldfinance.com"
-                > 
+                >
                   Staking
-                  </a>
+                </a>
               </li>
             </ul>
           </nav>

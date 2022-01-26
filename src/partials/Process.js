@@ -17,8 +17,8 @@ function Process() {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Sushiswap leverages our OpenMEV platform to enable
-              recapturing arbitrage profits back to its users and LP's
+              Sushiswap leverages our OpenMEV platform to enable recapturing
+              arbitrage profits back to its users and LP's
             </p>
           </div>
 
@@ -163,8 +163,8 @@ function Process() {
                 <span className="text-gray-400">3</span>. Staking
               </h4>
               <p className="text-lg text-center text-gray-400">
-                Excess profits are returned to $FOLD stakers.
-                Rewards are non-inflationary and paid out in stablecoin
+                Excess profits are returned to $FOLD stakers. Rewards are
+                non-inflationary and paid out in stablecoin
               </p>
             </div>
           </div>

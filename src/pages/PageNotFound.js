@@ -37,7 +37,6 @@ function PageNotFound() {
                     height="196"
                     alt="404"
                   />
-                 
                 </div>
                 {/* 404 content */}
                 <h3 className="h1 mb-4" data-aos="fade-up" data-aos-delay="200">

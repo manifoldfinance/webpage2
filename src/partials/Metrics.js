@@ -10,9 +10,7 @@ function Metrics() {
             <h1 className="h2 mb-4">
               Integrated workflow designed for product teams
             </h1>
-            <p className="text-xl text-gray-400">
-              placeholder
-            </p>
+            <p className="text-xl text-gray-400">placeholder</p>
           </div>
 
           <div className="grid md:grid-cols-3 bg-gray-800 divide-y md:divide-y-0 md:divide-x divide-gray-700 px-6 md:px-0 md:py-8 text-center">

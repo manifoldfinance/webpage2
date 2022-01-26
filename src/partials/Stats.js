@@ -7,11 +7,9 @@ function Stats() {
         <div className="pb-12 md:pb-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">
-              Maximize Protocol Value
-            </h1>
+            <h1 className="h2 mb-4">Maximize Protocol Value</h1>
             <p className="text-xl text-gray-400">
-             The metrics constitutes a lower bound on MEV
+              The metrics constitutes a lower bound on MEV
             </p>
           </div>
 
