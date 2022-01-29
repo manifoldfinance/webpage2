@@ -1,1 +1,1 @@
-export default { logMessage: '2edfb01 feat: plausible analytics' };
+export default { logMessage: '4726a51 v0.1.0' };
