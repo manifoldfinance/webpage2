@@ -1,1 +1,11 @@
 *.txt ident
+/.yarn/releases/** binary
+/.yarn/plugins/** binary
+git-hash export-subst
+*.sh text eol=lf
+security.txt ident
+LAST_COMMIT export-subst
+date*.txt filter=dater
+CODENOTIFY linguist-language=CODEOWNERS
+tarlockfile.tar lockable
+REACT_* export-subst

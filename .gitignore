@@ -3,6 +3,14 @@ node_modules
 build/
 dist/
 cache/
-
-
+yarn-error.log
+*.log
 .vercel
+*.cache
+coverage/
+tscache
+*.tar.gz
+*.tgz
+*.zip
+*.tar
+
