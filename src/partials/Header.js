@@ -106,10 +106,13 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="/help"
+                       >
+                      <a
                     className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600"
-                  >
+    href="https://github.com/manifoldfinance/support"
+  >
                     Help center
+                    </a>
                   </Link>
                 </li>
                 <li>
