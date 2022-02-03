@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "CI='' craco build",
     "format": "prettier-eslint \"src/**/*.js\"",
     "prod": "NODE_ENV='production' craco build",
     "jest": "npx jest --passWithNoTests",
