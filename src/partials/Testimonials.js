@@ -26,7 +26,7 @@ function Testimonials() {
                 <div className="relative inline-flex flex-col mb-4">
                   <img
                     className="rounded-full"
-                    src={require('../images/testimonial-01.jpg').default}
+                    src={require('../images/testimonial-01.jpg')}
                     width="48"
                     height="48"
                     alt="Testimonial 01"
@@ -40,7 +40,7 @@ function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">
+              <blockquote className="text-lg text-gray-400 flex-grow">
                 — Open PRO lets me quickly get the insights I care about so that
                 I can focus on my productive work. I've had Open PRO for about
                 24 hours now and I honestly don't know how I functioned without
@@ -51,7 +51,7 @@ function Testimonials() {
                 -{' '}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#"
+                  to="#0"
                 >
                   UX Board
                 </a>
@@ -68,7 +68,7 @@ function Testimonials() {
                 <div className="relative inline-flex flex-col mb-4">
                   <img
                     className="rounded-full"
-                    src={require('../images/testimonial-02.jpg').default}
+                    src={require('../images/testimonial-02.jpg')}
                     width="48"
                     height="48"
                     alt="Testimonial 02"
@@ -82,7 +82,7 @@ function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">
+              <blockquote className="text-lg text-gray-400 flex-grow">
                 — Open PRO lets me quickly get the insights I care about so that
                 I can focus on my productive work. I've had Open PRO for about
                 24 hours now and I honestly don't know how I functioned without
@@ -93,7 +93,7 @@ function Testimonials() {
                 -{' '}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  to="#0"
                 >
                   UX Board
                 </a>
@@ -110,7 +110,7 @@ function Testimonials() {
                 <div className="relative inline-flex flex-col mb-4">
                   <img
                     className="rounded-full"
-                    src={require('../images/testimonial-03.jpg').default}
+                    src={require('../images/testimonial-03.jpg')}
                     width="48"
                     height="48"
                     alt="Testimonial 03"
@@ -124,7 +124,7 @@ function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">
+              <blockquote className="text-lg text-gray-400 flex-grow">
                 — Open PRO lets me quickly get the insights I care about so that
                 I can focus on my productive work. I've had Open PRO for about
                 24 hours now and I honestly don't know how I functioned without
@@ -135,7 +135,7 @@ function Testimonials() {
                 -{' '}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  to="#0"
                 >
                   UX Board
                 </a>

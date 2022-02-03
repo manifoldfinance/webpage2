@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Header from '../partials/Header';
-import PageIllustration from '../partials/PageIllustration';
 import Footer from '../partials/Footer';
 
 function PageNotFound() {
@@ -12,14 +11,12 @@ function PageNotFound() {
       <Header />
 
       {/*  Page content */}
-      <main className="grow">
+      <main className="flex-grow">
         {/*  Page illustration */}
         <div
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
           aria-hidden="true"
-        >
-          <PageIllustration />
-        </div>
+        ></div>
 
         <section className="relative">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -32,24 +29,26 @@ function PageNotFound() {
                 >
                   <img
                     className="rounded-full"
-                    src={require('../images/hal.png').default}
-                    width="196"
-                    height="196"
+                    src={require('../images/hal.png')}
+                    width="96"
+                    height="96"
                     alt="404"
                   />
                 </div>
                 {/* 404 content */}
-                <h3 className="h1 mb-4" data-aos="fade-up" data-aos-delay="200">
-                  I'm afraid I can not find that page.
-                </h3>
+                <h1 className="h1 mb-4" data-aos="fade-up" data-aos-delay="200">
+                  I'm afraid I can't do that, Dave.
+                </h1>
                 <p
                   className="text-lg text-gray-400"
                   data-aos="fade-up"
                   data-aos-delay="400"
                 >
-                  The{' '}
+                  Head to our{' '}
                   <Link
-                    to="/"
+                    to="https://manifoldfinance.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   >
                     homepage

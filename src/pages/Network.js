@@ -5,13 +5,13 @@ import PageIllustration from '../partials/PageIllustration';
 import NetworkTables from '../partials/NetworkTables';
 import Faqs from '../partials/Faqs';
 import Testimonials from '../partials/Testimonials';
-import Cta from '../partials/Cta';
+import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
 
 function Network() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden">
+    <div className="flex overflow-hidden flex-col min-h-screen">
       {/*  Site header */}
       <Header />
 
@@ -19,18 +19,15 @@ function Network() {
       <main className="flex-grow">
         {/*  Page illustration */}
         <div
-          className="relative max-w-6xl mx-auto h-0 pointer-events-none"
+          className="relative mx-auto max-w-6xl h-0 pointer-events-none"
           aria-hidden="true"
-        >
-          <PageIllustration />
-        </div>
+        ></div>
 
         {/*  Page sections */}
         <NetworkTables />
         <Faqs />
-        <FeaturesTiles />
-        <Testimonials />
-        <Cta />
+
+        <Newsletter />
       </main>
 
       {/*  Site footer */}

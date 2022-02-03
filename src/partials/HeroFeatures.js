@@ -1,6 +1,6 @@
 import React from 'react';
 
-function HeroFeatures() {
+function HeroSolutions() {
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -46,22 +46,20 @@ function HeroFeatures() {
           {/* Content */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Maximally Extracted Value
+              Keep track of every important detail
             </h1>
             <p
               className="text-xl text-gray-400"
               data-aos="fade-up"
               data-aos-delay="200"
-            >
-              MEV Adjusted Arrival Price
-            </p>
+            ></p>
           </div>
           {/* Image */}
           <img
             className="mx-auto"
-            src={require('../images/vecrv.svg').default}
-            width="425"
-            height="425"
+            src={require('../images/hero-image-02.png')}
+            width="768"
+            height="432"
             alt="Hero"
             data-aos="fade-up"
             data-aos-delay="400"
@@ -72,4 +70,4 @@ function HeroFeatures() {
   );
 }
 
-export default HeroFeatures;
+export default HeroSolutions;

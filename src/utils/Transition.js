@@ -1,3 +1,4 @@
+/* eslint-ignore */
 import React, { useRef, useEffect, useContext } from 'react';
 import { CSSTransition as ReactCSSTransition } from 'react-transition-group';
 
@@ -120,3 +121,4 @@ function Transition({ show, appear, ...rest }) {
 }
 
 export default Transition;
+/** @export Transition */

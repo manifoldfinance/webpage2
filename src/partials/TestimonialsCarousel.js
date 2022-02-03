@@ -97,7 +97,7 @@ function TestimonialsCarousel() {
                 data-aos-anchor="[data-aos-id-testimonialcar]"
               >
                 <svg
-                  className="w-6 h-6 mr-3 shrink-0"
+                  className="w-6 h-6 mr-3 flex-shrink-0"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -121,7 +121,7 @@ function TestimonialsCarousel() {
                 data-aos-anchor="[data-aos-id-testimonialcar]"
               >
                 <svg
-                  className="w-6 h-6 mr-3 shrink-0"
+                  className="w-6 h-6 mr-3 flex-shrink-0"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -145,7 +145,7 @@ function TestimonialsCarousel() {
                 data-aos-anchor="[data-aos-id-testimonialcar]"
               >
                 <svg
-                  className="w-6 h-6 mr-3 shrink-0"
+                  className="w-6 h-6 mr-3 flex-shrink-0"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -169,7 +169,7 @@ function TestimonialsCarousel() {
                 data-aos-anchor="[data-aos-id-testimonialcar]"
               >
                 <svg
-                  className="w-6 h-6 mr-3 shrink-0"
+                  className="w-6 h-6 mr-3 flex-shrink-0"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -193,7 +193,7 @@ function TestimonialsCarousel() {
                 data-aos-anchor="[data-aos-id-testimonialcar]"
               >
                 <svg
-                  className="w-6 h-6 mr-3 shrink-0"
+                  className="w-6 h-6 mr-3 flex-shrink-0"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -230,7 +230,7 @@ function TestimonialsCarousel() {
                 </div>
                 {/* People pics */}
                 <img
-                  src={require('../images/worldmap.png').default}
+                  src={require('../images/worldmap.png')}
                   width="672"
                   height="330"
                   alt="World map"
@@ -238,7 +238,7 @@ function TestimonialsCarousel() {
                 <img
                   className="absolute rounded-full"
                   style={{ top: '22%', left: '52%' }}
-                  src={require('../images/world-user-01.jpg').default}
+                  src={require('../images/world-user-01.jpg')}
                   width="32"
                   height="32"
                   alt="User 01"
@@ -247,7 +247,7 @@ function TestimonialsCarousel() {
                 <img
                   className="absolute rounded-full"
                   style={{ top: '50%', left: '58%' }}
-                  src={require('../images/world-user-02.jpg').default}
+                  src={require('../images/world-user-02.jpg')}
                   width="48"
                   height="48"
                   alt="User 02"
@@ -257,7 +257,7 @@ function TestimonialsCarousel() {
                 <img
                   className="absolute rounded-full"
                   style={{ top: '8.5%', left: '70.5%' }}
-                  src={require('../images/world-user-03.jpg').default}
+                  src={require('../images/world-user-03.jpg')}
                   width="56"
                   height="56"
                   alt="User 02"
@@ -267,7 +267,7 @@ function TestimonialsCarousel() {
                 <img
                   className="absolute rounded-full"
                   style={{ top: '34%', left: '76.5%' }}
-                  src={require('../images/world-user-04.jpg').default}
+                  src={require('../images/world-user-04.jpg')}
                   width="72"
                   height="72"
                   alt="User 04"
@@ -277,7 +277,7 @@ function TestimonialsCarousel() {
                 <img
                   className="absolute rounded-full"
                   style={{ top: '29.5%', left: '8.5%' }}
-                  src={require('../images/world-user-05.jpg').default}
+                  src={require('../images/world-user-05.jpg')}
                   width="48"
                   height="48"
                   alt="User 05"
@@ -287,7 +287,7 @@ function TestimonialsCarousel() {
                 <img
                   className="absolute rounded-full"
                   style={{ top: '56%', left: '19%' }}
-                  src={require('../images/world-user-06.jpg').default}
+                  src={require('../images/world-user-06.jpg')}
                   width="56"
                   height="56"
                   alt="User 06"
@@ -297,7 +297,7 @@ function TestimonialsCarousel() {
                 <img
                   className="absolute rounded-full"
                   style={{ top: '20%', left: '24.5%' }}
-                  src={require('../images/world-user-07.jpg').default}
+                  src={require('../images/world-user-07.jpg')}
                   width="64"
                   height="64"
                   alt="User 07"
@@ -307,7 +307,7 @@ function TestimonialsCarousel() {
                 <img
                   className="absolute rounded-full"
                   style={{ top: '39%', left: '43%' }}
-                  src={require('../images/world-user-08.jpg').default}
+                  src={require('../images/world-user-08.jpg')}
                   width="40"
                   height="40"
                   alt="User 08"
@@ -337,7 +337,7 @@ function TestimonialsCarousel() {
                     <div className="relative inline-flex flex-col justify-center mb-4">
                       <img
                         className="rounded-full"
-                        src={require(`../images/${item.img}`).default}
+                        src={require(`../images/${item.img}`)}
                         width="56"
                         height="56"
                         alt={item.alt}

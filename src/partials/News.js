@@ -14,15 +14,15 @@ function News() {
 
           {/* Articles list */}
           <div className="max-w-sm mx-auto md:max-w-none">
-            <div className="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
+            <div className="grid gap-12 md:grid-cols-3 md:col-gap-6 md:row-gap-8 items-start">
               {/* 1st article */}
               <article className="flex flex-col h-full" data-aos="fade-up">
                 <header>
-                  <a className="block mb-6" href="blog-post.html">
+                  <a className="block mb-6" to="blog-post.html">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require('../images/news-01.jpg').default}
+                        src={require('../images/news-01.jpg')}
                         width="352"
                         height="198"
                         alt="News 01"
@@ -34,7 +34,7 @@ function News() {
                       <li className="m-1">
                         <a
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                          href="#0"
+                          to="#0"
                         >
                           Product
                         </a>
@@ -42,7 +42,7 @@ function News() {
                       <li className="m-1">
                         <a
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
-                          href="#0"
+                          to="#0"
                         >
                           Engineering
                         </a>
@@ -52,21 +52,21 @@ function News() {
                   <h3 className="h4 mb-2">
                     <a
                       className="hover:text-gray-100 transition duration-150 ease-in-out"
-                      href="blog-post.html"
+                      to="blog-post.html"
                     >
                       The quick brown fox jumped over the lazy dog.
                     </a>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-gray-400 flex-grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <footer className="flex items-center mt-4">
-                  <a href="#0">
+                  <a to="#0">
                     <img
-                      className="rounded-full shrink-0 mr-4"
-                      src={require('../images/news-author-01.jpg').default}
+                      className="rounded-full flex-shrink-0 mr-4"
+                      src={require('../images/news-author-01.jpg')}
                       width="40"
                       height="40"
                       alt="Author 01"
@@ -75,7 +75,7 @@ function News() {
                   <div className="font-medium">
                     <a
                       className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
-                      href="#0"
+                      to="#0"
                     >
                       Anastasia Dan
                     </a>
@@ -92,11 +92,11 @@ function News() {
                 data-aos-delay="200"
               >
                 <header>
-                  <a className="block mb-6" href="blog-post.html">
+                  <a className="block mb-6" to="blog-post.html">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require('../images/news-02.jpg').default}
+                        src={require('../images/news-02.jpg')}
                         width="352"
                         height="198"
                         alt="News 02"
@@ -108,7 +108,7 @@ function News() {
                       <li className="m-1">
                         <a
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-pink-500 hover:bg-pink-600 transition duration-150 ease-in-out"
-                          href="#0"
+                          to="#0"
                         >
                           Desing
                         </a>
@@ -116,7 +116,7 @@ function News() {
                       <li className="m-1">
                         <a
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
-                          href="#0"
+                          to="#0"
                         >
                           Engineering
                         </a>
@@ -126,21 +126,21 @@ function News() {
                   <h3 className="h4 mb-2">
                     <a
                       className="hover:text-gray-100 transition duration-150 ease-in-out"
-                      href="blog-post.html"
+                      to="blog-post.html"
                     >
                       The quick brown fox jumped over the lazy dog.
                     </a>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-gray-400 flex-grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <footer className="flex items-center mt-4">
-                  <a href="#0">
+                  <a to="#0">
                     <img
-                      className="rounded-full shrink-0 mr-4"
-                      src={require('../images/news-author-02.jpg').default}
+                      className="rounded-full flex-shrink-0 mr-4"
+                      src={require('../images/news-author-02.jpg')}
                       width="40"
                       height="40"
                       alt="Author 02"
@@ -149,7 +149,7 @@ function News() {
                   <div className="font-medium">
                     <a
                       className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
-                      href="#0"
+                      to="#0"
                     >
                       Markus Barker
                     </a>
@@ -166,11 +166,11 @@ function News() {
                 data-aos-delay="400"
               >
                 <header>
-                  <a className="block mb-6" href="blog-post.html">
+                  <a className="block mb-6" to="blog-post.html">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require('../images/news-03.jpg').default}
+                        src={require('../images/news-03.jpg')}
                         width="352"
                         height="198"
                         alt="News 03"
@@ -182,7 +182,7 @@ function News() {
                       <li className="m-1">
                         <a
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                          href="#0"
+                          to="#0"
                         >
                           Product
                         </a>
@@ -190,7 +190,7 @@ function News() {
                       <li className="m-1">
                         <a
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-teal-500 hover:bg-teal-600 transition duration-150 ease-in-out"
-                          href="#0"
+                          to="#0"
                         >
                           Tutorials and articles
                         </a>
@@ -200,21 +200,21 @@ function News() {
                   <h3 className="h4 mb-2">
                     <a
                       className="hover:text-gray-100 transition duration-150 ease-in-out"
-                      href="blog-post.html"
+                      to="blog-post.html"
                     >
                       The quick brown fox jumped over the lazy dog.
                     </a>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-gray-400 flex-grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <footer className="flex items-center mt-4">
-                  <a href="#0">
+                  <a to="#0">
                     <img
-                      className="rounded-full shrink-0 mr-4"
-                      src={require('../images/news-author-03.jpg').default}
+                      className="rounded-full flex-shrink-0 mr-4"
+                      src={require('../images/news-author-03.jpg')}
                       width="40"
                       height="40"
                       alt="Author 03"
@@ -223,7 +223,7 @@ function News() {
                   <div className="font-medium">
                     <a
                       className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
-                      href="#0"
+                      to="#0"
                     >
                       Lisa Crockett
                     </a>

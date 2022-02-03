@@ -1,36 +1,29 @@
 # [manifoldfinance.com](https://manifoldfinance.com)
 
-> alt: [manifold.zone](https://manifold.zone)
+<br />
+
+[manifoldfinance.com](https://manifoldfinance.com)
 
 ---
 
-[![nodejs](https://github.com/manifoldfinance/webpage2/actions/workflows/nodejs.yml/badge.svg)](https://github.com/manifoldfinance/webpage2/actions/workflows/nodejs.yml)
+## Develop
 
-> ReactJS WebApp Portal
+### Production
 
-## Development
+- yarn install
+- yarn run build
+- vercel deploy --prod
 
-### Devtools
+### Development
 
-```sh
-npm i -g react-devtools
-```
+- yarn run dev
 
-Add the tag
+## Changelog
 
-```html
-<script src="http://localhost:8097"></script>
-```
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <script src="http://localhost:8097"></script>
-  </head>
-</html>
-```
+[CHANGELOG.md](CHANGELOG.md)
 
 ### License
 
-Apache-2.0
+Copyright 2021 - CommodityStream, LLC. - All Rights Reserved
+
+SPDX-License-Identifier: MIT

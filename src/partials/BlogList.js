@@ -29,7 +29,7 @@ function BlogList() {
                 <figure className="relative h-0 pb-9/16 md:pb-3/4 lg:pb-9/16 overflow-hidden transform md:-translate-y-2 xl:-translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out">
                   <img
                     className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                    src={require('../images/blog-post-01.jpg').default}
+                    src={require('../images/blog-post-01.jpg')}
                     width="540"
                     height="303"
                     alt="Blog post 01"
@@ -67,7 +67,7 @@ function BlogList() {
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-gray-400 flex-grow">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum dolore eu fugiat nulla pariatur. Excepteur sint
                   occaecat cupidatat.
@@ -75,8 +75,8 @@ function BlogList() {
                 <footer className="flex items-center mt-4">
                   <Link to="#">
                     <img
-                      className="rounded-full shrink-0 mr-4"
-                      src={require('../images/news-author-04.jpg').default}
+                      className="rounded-full flex-shrink-0 mr-4"
+                      src={require('../images/news-author-04.jpg')}
                       width="40"
                       height="40"
                       alt="Author 04"
@@ -108,7 +108,7 @@ function BlogList() {
             </h4>
 
             {/*  Articles container */}
-            <div className="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
+            <div className="grid gap-12 md:grid-cols-3 md:col-gap-6 md:row-gap-8 items-start">
               {/*  1st article */}
               <article className="flex flex-col h-full" data-aos="fade-up">
                 <header>
@@ -116,7 +116,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require('../images/news-01.jpg').default}
+                        src={require('../images/news-01.jpg')}
                         width="352"
                         height="198"
                         alt="News 01"
@@ -152,15 +152,15 @@ function BlogList() {
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-gray-400 flex-grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <footer className="flex items-center mt-4">
                   <Link to="#">
                     <img
-                      className="rounded-full shrink-0 mr-4"
-                      src={require('../images/news-author-01.jpg').default}
+                      className="rounded-full flex-shrink-0 mr-4"
+                      src={require('../images/news-author-01.jpg')}
                       width="40"
                       height="40"
                       alt="Author 01"
@@ -190,7 +190,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require('../images/news-02.jpg').default}
+                        src={require('../images/news-02.jpg')}
                         width="352"
                         height="198"
                         alt="News 02"
@@ -226,15 +226,15 @@ function BlogList() {
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-gray-400 flex-grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <footer className="flex items-center mt-4">
                   <Link to="#">
                     <img
-                      className="rounded-full shrink-0 mr-4"
-                      src={require('../images/news-author-02.jpg').default}
+                      className="rounded-full flex-shrink-0 mr-4"
+                      src={require('../images/news-author-02.jpg')}
                       width="40"
                       height="40"
                       alt="Author 02"
@@ -264,7 +264,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require('../images/news-03.jpg').default}
+                        src={require('../images/news-03.jpg')}
                         width="352"
                         height="198"
                         alt="News 03"
@@ -300,15 +300,15 @@ function BlogList() {
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-gray-400 flex-grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <footer className="flex items-center mt-4">
                   <Link to="#">
                     <img
-                      className="rounded-full shrink-0 mr-4"
-                      src={require('../images/news-author-03.jpg').default}
+                      className="rounded-full flex-shrink-0 mr-4"
+                      src={require('../images/news-author-03.jpg')}
                       width="40"
                       height="40"
                       alt="Author 03"
@@ -334,7 +334,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require('../images/news-04.jpg').default}
+                        src={require('../images/news-04.jpg')}
                         width="352"
                         height="198"
                         alt="News 04"
@@ -370,15 +370,15 @@ function BlogList() {
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-gray-400 flex-grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <footer className="flex items-center mt-4">
                   <Link to="#">
                     <img
-                      className="rounded-full shrink-0 mr-4"
-                      src={require('../images/news-author-05.jpg').default}
+                      className="rounded-full flex-shrink-0 mr-4"
+                      src={require('../images/news-author-05.jpg')}
                       width="40"
                       height="40"
                       alt="Author 05"
@@ -408,7 +408,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require('../images/news-05.jpg').default}
+                        src={require('../images/news-05.jpg')}
                         width="352"
                         height="198"
                         alt="News 05"
@@ -436,15 +436,15 @@ function BlogList() {
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-gray-400 flex-grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <footer className="flex items-center mt-4">
                   <Link to="#">
                     <img
-                      className="rounded-full shrink-0 mr-4"
-                      src={require('../images/news-author-03.jpg').default}
+                      className="rounded-full flex-shrink-0 mr-4"
+                      src={require('../images/news-author-03.jpg')}
                       width="40"
                       height="40"
                       alt="Author 03"
@@ -474,7 +474,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require('../images/news-06.jpg').default}
+                        src={require('../images/news-06.jpg')}
                         width="352"
                         height="198"
                         alt="News 06"
@@ -510,15 +510,15 @@ function BlogList() {
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-gray-400 flex-grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <footer className="flex items-center mt-4">
                   <Link to="#">
                     <img
-                      className="rounded-full shrink-0 mr-4"
-                      src={require('../images/news-author-06.jpg').default}
+                      className="rounded-full flex-shrink-0 mr-4"
+                      src={require('../images/news-author-06.jpg')}
                       width="40"
                       height="40"
                       alt="Author 06"
@@ -544,7 +544,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require('../images/news-07.jpg').default}
+                        src={require('../images/news-07.jpg')}
                         width="352"
                         height="198"
                         alt="News 07"
@@ -580,15 +580,15 @@ function BlogList() {
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-gray-400 flex-grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <footer className="flex items-center mt-4">
                   <Link to="#">
                     <img
-                      className="rounded-full shrink-0 mr-4"
-                      src={require('../images/news-author-02.jpg').default}
+                      className="rounded-full flex-shrink-0 mr-4"
+                      src={require('../images/news-author-02.jpg')}
                       width="40"
                       height="40"
                       alt="Author 02"
@@ -618,7 +618,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require('../images/news-08.jpg').default}
+                        src={require('../images/news-08.jpg')}
                         width="352"
                         height="198"
                         alt="News 08"
@@ -654,15 +654,15 @@ function BlogList() {
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-gray-400 flex-grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <footer className="flex items-center mt-4">
                   <Link to="#">
                     <img
-                      className="rounded-full shrink-0 mr-4"
-                      src={require('../images/news-author-01.jpg').default}
+                      className="rounded-full flex-shrink-0 mr-4"
+                      src={require('../images/news-author-01.jpg')}
                       width="40"
                       height="40"
                       alt="Author 01"
@@ -692,7 +692,7 @@ function BlogList() {
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={require('../images/news-09.jpg').default}
+                        src={require('../images/news-09.jpg')}
                         width="352"
                         height="198"
                         alt="News 09"
@@ -720,15 +720,15 @@ function BlogList() {
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-gray-400 grow">
+                <p className="text-lg text-gray-400 flex-grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <footer className="flex items-center mt-4">
                   <Link to="#">
                     <img
-                      className="rounded-full shrink-0 mr-4"
-                      src={require('../images/news-author-02.jpg').default}
+                      className="rounded-full flex-shrink-0 mr-4"
+                      src={require('../images/news-author-02.jpg')}
                       width="40"
                       height="40"
                       alt="Author 02"
