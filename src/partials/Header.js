@@ -185,35 +185,6 @@ function Header() {
                     About us
                   </Link>
                 </li>
-                <li className="py-2 my-2 border-t border-b border-gray-700">
-                  <span className="flex py-2 text-gray-300">Support</span>
-                  <ul className="pl-4">
-                    <li>
-                      <Link
-                        to="/contact"
-                        className="flex py-2 text-sm font-medium text-gray-400 hover:text-gray-200"
-                      >
-                        Contact us
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/help"
-                        className="flex py-2 text-sm font-medium text-gray-400 hover:text-gray-200"
-                      >
-                        Help center
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/404"
-                        className="flex py-2 text-sm font-medium text-gray-400 hover:text-gray-200"
-                      >
-                        404
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
                 <li>
                   <Link
                     to="/signin"
