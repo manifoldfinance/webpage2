@@ -7,9 +7,9 @@ import AOS from 'aos';
 
 import Home from './pages/Home';
 import Features from './pages/Features';
-import Pricing from './pages/Pricing';
-import Blog from './pages/Blog';
-import BlogPost from './pages/BlogPost';
+//import Pricing from './pages/Pricing';
+//import Blog from './pages/Blog';
+//import BlogPost from './pages/BlogPost';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Help from './pages/Help';
@@ -17,7 +17,7 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import PageNotFound from './pages/PageNotFound';
-import Network from './pages/solutions';
+//import Network from './pages/solutions';
 
 function App() {
   const location = useLocation();
@@ -63,9 +63,6 @@ function App() {
         </Route>
         <Route path="/help">
           <Help />
-        </Route>
-        <Route path="/solutions">
-          <Network/>
         </Route>
         <Route path="/signin">
           <SignIn />
