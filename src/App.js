@@ -25,7 +25,8 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import PageNotFound from './pages/PageNotFound';
-//import Network from './pages/solutions';
+// import Network from './pages/solutions';
+import Solutions from './pages/Features';
 
 function App() {
   const location = useLocation();
@@ -64,6 +65,9 @@ function App() {
         {/* <Route path="/blog-post">
           <BlogPost />
         </Route> */}
+        <Route path="/solutions">
+          <Solutions/>
+        </Route>
         <Route path="/about">
           <About />
         </Route>
