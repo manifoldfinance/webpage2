@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['public/index.html', 'src/**/*.js', 'src/**/*.jsx'],
+  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   theme: {
     extend: {
       colors: {
@@ -32,15 +32,15 @@ module.exports = {
         '1/1': '100%',
       },
       fontFamily: {
-        'inter': ['Inter', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
         'architects-daughter': ['"Architects Daughter"', 'sans-serif'],
       },
       fontSize: {
-        'xs': '0.75rem',
-        'sm': '0.875rem',
-        'base': '1rem',
-        'lg': '1.125rem',
-        'xl': '1.25rem',
+        xs: '0.75rem',
+        sm: '0.875rem',
+        base: '1rem',
+        lg: '1.125rem',
+        xl: '1.25rem',
         '2xl': '1.5rem',
         '3xl': '2rem',
         '4xl': '2.5rem',
@@ -67,9 +67,9 @@ module.exports = {
       customForms: (theme) => ({
         default: {
           'input, textarea, multiselect, select, checkbox, radio': {
-            'backgroundColor': 'transparent',
-            'borderColor': theme('colors.gray.700'),
-            'borderRadius': theme('borderRadius.sm'),
+            backgroundColor: 'transparent',
+            borderColor: theme('colors.gray.700'),
+            borderRadius: theme('borderRadius.sm'),
             '&:focus': {
               outline: undefined,
               boxShadow: undefined,
@@ -90,7 +90,7 @@ module.exports = {
               color: theme('colors.gray.500'),
             },
           },
-          'select': {
+          select: {
             paddingRight: theme('spacing.10'),
             iconColor: theme('colors.gray.500'),
           },
@@ -109,5 +109,5 @@ module.exports = {
     boxShadow: ['responsive', 'hover', 'focus', 'focus-within'],
     opacity: ['responsive', 'hover', 'focus', 'group-hover'],
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [require('@tailwindcss/custom-forms')],
 };

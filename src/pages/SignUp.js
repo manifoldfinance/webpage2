@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Header from '../partials/Header';
-import PageIllustration from '../partials/PageIllustration';
 
 function SignUp() {
   return (
@@ -11,21 +10,19 @@ function SignUp() {
       <Header />
 
       {/*  Page content */}
-      <main className="grow">
+      <main className="flex-grow">
         {/*  Page illustration */}
         <div
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
           aria-hidden="true"
-        >
-          <PageIllustration />
-        </div>
+        ></div>
 
         <section className="relative">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
               {/* Page header */}
               <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                <h2 className="h2">Request User Access</h2>
+                <h1 className="h1">Account Request Form</h1>
               </div>
 
               {/* Form */}
@@ -35,7 +32,7 @@ function SignUp() {
                     <div className="w-full px-3">
                       <button className="btn px-0 text-white bg-red-600 hover:bg-red-700 w-full relative flex items-center">
                         <svg
-                          className="w-4 h-4 fill-current text-white opacity-75 shrink-0 mx-4"
+                          className="w-4 h-4 fill-current text-white opacity-75 flex-shrink-0 mx-4"
                           viewBox="0 0 16 16"
                           xmlns="http://www.w3.org/2000/svg"
                         >
@@ -54,14 +51,14 @@ function SignUp() {
                 </form>
                 <div className="flex items-center my-6">
                   <div
-                    className="border-t border-gray-700 border-dotted grow mr-3"
+                    className="border-t border-gray-700 border-dotted flex-grow mr-3"
                     aria-hidden="true"
                   ></div>
                   <div className="text-gray-400">
                     Or, register with your email
                   </div>
                   <div
-                    className="border-t border-gray-700 border-dotted grow ml-3"
+                    className="border-t border-gray-700 border-dotted flex-grow ml-3"
                     aria-hidden="true"
                   ></div>
                 </div>
@@ -135,8 +132,7 @@ function SignUp() {
                     </div>
                   </div>
                   <div className="text-sm text-gray-500 text-center">
-                    I agree to be contacted by Open PRO about this offer as per
-                    the Open PRO{' '}
+                    I agree to be contacted by Manifold Finance{' '}
                     <Link
                       to="#"
                       className="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out"
@@ -148,16 +144,16 @@ function SignUp() {
                   <div className="flex flex-wrap -mx-3 mt-6">
                     <div className="w-full px-3">
                       <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">
-                        Sign up
+                        Request Account
                       </button>
                     </div>
                   </div>
                 </form>
                 <div className="text-gray-400 text-center mt-6">
-                  Already using Open PRO?{' '}
+                  {' '}
                   <Link
                     to="signin"
-                    className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
+                    className="text-white-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   >
                     Sign in
                   </Link>

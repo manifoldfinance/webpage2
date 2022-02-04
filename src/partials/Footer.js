@@ -1,3 +1,8 @@
+/**
+ * @file Footer
+ * @summary Webpage Footer
+ * @version 1.0.0
+ */
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -12,100 +17,93 @@ function Footer() {
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
                 {/* Logo */}
-                <Link to="/" className="inline-block" aria-label="Footer">
-                  <svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M22.4985 16.3208C21.5691 10.5557 16.4071 6.44877 10.6537 6.79257C10.391 6.80681 10.1283 6.83161 9.86568 6.86697C5.95998 7.37458 2.7975 9.83358 1.22379 13.1441C1.01315 11.6466 1.10991 10.1232 1.50844 8.66258C1.90696 7.20196 2.59925 5.83332 3.54506 4.63634C7.42434 -0.313195 14.5687 -1.3381 19.5036 2.34628C20.3065 2.94483 21.0208 3.64875 21.6263 4.43807C24.2085 7.80614 24.5826 12.4535 22.4985 16.3208Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M18.9834 28.9652C17.3106 30.4957 15.1885 31.4769 12.9151 31.7703C6.75721 32.5714 1.08216 28.2126 0.239608 22.0371C-0.0615369 19.8709 0.279984 17.6659 1.22372 15.6833C2.79721 12.3729 5.95982 9.91393 9.86568 9.4064C10.1283 9.37125 10.391 9.34642 10.6537 9.33195C8.02031 11.7263 6.57489 15.3439 7.09502 19.1579C7.36521 21.1733 8.17938 23.0825 9.45414 24.6899C11.6921 27.5037 15.21 29.1915 18.9834 28.9652Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M22.1363 27.737C21.8741 27.7714 21.6113 27.7972 21.3483 27.8108C17.5752 28.0372 14.0572 26.3497 11.8196 23.5351C16.0987 24.5833 20.8613 23.0804 23.7776 19.361C24.187 18.8402 24.5505 18.2863 24.8639 17.7055C26.9484 13.8385 26.5747 9.19061 23.991 5.82225C28.0126 7.12214 31.1497 10.6381 31.76 15.1057C32.6026 21.2814 28.2945 26.9383 22.1363 27.737Z"
-                      fill="white"
-                    />
-                  </svg>
-                </Link>
+                <Link
+                  href="/"
+                  className="inline-block"
+                  aria-label="Manifold"
+                ></Link>
               </div>
-              <div className="text-gray-400"></div>
+              <div className="text-gray-400">
+                <br></br>
+                <br></br>
+              </div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
             <div className="grid gap-8 md:col-span-8 lg:col-span-7 sm:grid-cols-3">
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="mb-1 font-medium text-gray-200">Development</h6>
+                <h6 className="mb-1 font-medium text-gray-200">Resources</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link
-                      to="https://docs.openmev.org"
-                      className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
-                    >
-                      OpenMEV
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
+                      {' '}
                     </Link>
+                    <a
+                      rel="noopener noreferrer"
+                      href={'https://manifoldfinance.github.io/hub/'}
+                    >
+                      Developer Hub
+                    </a>
                   </li>
                   <li className="mb-1">
-                    <Link
-                      to="https://status.manifoldfinance.com/"
-                      className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
+                    <a
+                      rel="noopener noreferrer"
+                      href={'https://openmev.page.link/support-chat'}
                     >
-                      Platform Status
-                    </Link>
+                      Helpdesk
+                    </a>
                   </li>
                   <li className="mb-1">
-                    <Link
-                      to="https://github.com/manifoldfinance/disco3-react#disco3"
-                      className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
+                    <a
+                      rel="noopener noreferrer"
+                      href={'https://github.com/manifoldfinance/openmev-sdk'}
                     >
-                      Disco3 React
-                    </Link>
+                      OpenMEV SDK
+                    </a>
+                  </li>
+                  <li className="mb-1">
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
+                    <a
+                      rel="noopener noreferrer"
+                      href={'https://github.com/manifoldfinance/disco'}
+                    >
+                      Design System
+                    </a>
                   </li>
                 </ul>
               </div>
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="mb-1 font-medium text-gray-200">Resources</h6>
+                <h6 className="mb-1 font-medium text-gray-200">Community</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link
-                      to="https://github.com/manifoldfinance/disco3-react#disco3"
-                      className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
-                    ></Link>
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
-                      href={'https://github.com/manifoldfinance'}
+                      href={'https://forums.manifoldfinance.com/'}
                     >
-                      GitHub
+                      Forums
                     </a>
                   </li>
                   <li className="mb-1">
-                    <Link
-                      to="https://github.com/manifoldfinance/disco3-react#disco3"
-                      className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
-                    >
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
                       {' '}
                     </Link>
                     <a
                       rel="noopener noreferrer"
-                      href={'https://forums.manifoldfinance.com'}
+                      href={
+                        'https://forums.manifoldfinance.com/t/guide-how-to-stake-fold-for-xfold/150'
+                      }
                     >
-                      Community Forums
+                      Staking Guide
                     </a>
                   </li>
                   <li className="mb-1">
-                    <Link
-                      to="https://github.com/manifoldfinance/disco3-react#disco3"
-                      className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
-                    >
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
                       {' '}
                     </Link>
                     <a
@@ -117,50 +115,40 @@ function Footer() {
                   </li>
 
                   <li className="mb-1">
-                    <Link
-                      to="https://github.com/manifoldfinance/disco3-react#disco3"
-                      className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
-                    ></Link>
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
-                      href={'https://github.com/manifoldfinance/pki'}
+                      href={
+                        'https://github.com/manifoldfinance/security/tree/master'
+                      }
                     >
-                      Security
+                      Security and Bug Bounties
                     </a>
                   </li>
                 </ul>
               </div>
 
-              {/* 4th block */}
               <div className="text-sm">
-                <h6 className="mb-1 font-medium text-gray-200">Company</h6>
+                <h6 className="mb-1 font-medium text-gray-200">Links</h6>
                 <ul>
                   <li className="mb-1">
                     <Link
-                      to="https://github.com/manifoldfinance/disco3-react#disco3"
+                      href="https://analytics.sushi.com/tokens/0xd084944d3c05cd115c09d072b9f44ba3e0e45921"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
-                    >
-                      {' '}
-                    </Link>
-                    <a
-                      href="https://manifoldfinance.github.io/primitives/"
-                      rel="noopener noreferrer"
-                    >
-                      Engineering Blog
-                    </a>
+                    ></Link>
+                    $FOLD Token
                   </li>
                   <li className="mb-1">
                     <Link
-                      to="https://github.com/manifoldfinance/legal/blob/master/service/terms_of_service.md"
+                      href="https://form.typeform.com/to/Sr7xLL3s"
                       rel="noopener noreferrer"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
-                    >
-                      Terms of Service
-                    </Link>
+                    ></Link>
+                    Partnership Inquires
                   </li>
                   <li className="mb-1">
                     <Link
-                      to="https://github.com/manifoldfinance/legal/blob/master/service/privacy_policy.md#platform-privacy-policy"
+                      href="#"
                       rel="noopener noreferrer"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     >
@@ -168,16 +156,15 @@ function Footer() {
                     </Link>
                     <a
                       rel="noopener noreferrer"
-                      href="https://github.com/manifoldfinance/legal/blob/master/service/privacy_policy.md#platform-privacy-policy"
+                      href={
+                        'https://github.com/manifoldfinance/legal/blob/master/service/privacy_policy.md'
+                      }
                     >
                       Privacy Policy
                     </a>
                   </li>
                   <li className="mb-1">
-                    <Link
-                      to="https://github.com/manifoldfinance/disco3-react#disco3"
-                      className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
-                    >
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
                       {' '}
                     </Link>
                     <a
@@ -198,7 +185,8 @@ function Footer() {
             <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
               <li>
                 <Link
-                  to="https://twitter.com/foldfinance"
+                  href="https://twitter.com/foldfinance"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 rounded-full transition duration-150 ease-in-out hover:text-gray-100 hover:bg-purple-600"
                   aria-label="Twitter"
@@ -214,7 +202,8 @@ function Footer() {
               </li>
               <li className="ml-4">
                 <Link
-                  to="https://github.com/manifoldfinance"
+                  href="https://github.com/manifoldfinance"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 rounded-full transition duration-150 ease-in-out hover:text-gray-100 hover:bg-purple-600"
                   aria-label="Github"
@@ -232,8 +221,10 @@ function Footer() {
 
             {/* Copyrights note */}
             <div className="mr-4 text-sm text-gray-400">
-              &copy; 2022 CommodityStream LP - All rights reserved.
+              &copy; 2021 Manifold Finance, Inc. - All Rights Reserved
             </div>
+            <div id="title" className="mr-4 text-sm text-gray-400"></div>
+            <div id="status" status="wait"></div>
           </div>
         </div>
       </div>
@@ -242,3 +233,4 @@ function Footer() {
 }
 
 export default Footer;
+/** @export Footer */

@@ -26,7 +26,7 @@ function Timeline() {
               data-aos-anchor="[data-aos-id-timeline]"
             >
               <div className="pl-2">
-                <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+                <div className="font-fira-sans text-xl text-purple-600 mb-2">
                   The seed
                 </div>
                 <div className="flex items-center mb-3">
@@ -59,8 +59,8 @@ function Timeline() {
               data-aos-anchor="[data-aos-id-timeline]"
             >
               <div className="pl-2">
-                <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                  New features
+                <div className="font-fira-sans text-xl text-purple-600 mb-2">
+                  New solutions
                 </div>
                 <div className="flex items-center mb-3">
                   <div className="absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-green-600 bg-green-200 rounded-full">
@@ -94,7 +94,7 @@ function Timeline() {
               data-aos-anchor="[data-aos-id-timeline]"
             >
               <div className="pl-2">
-                <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+                <div className="font-fira-sans text-xl text-purple-600 mb-2">
                   Pivoting
                 </div>
                 <div className="flex items-center mb-3">
@@ -127,7 +127,7 @@ function Timeline() {
               data-aos-anchor="[data-aos-id-timeline]"
             >
               <div className="pl-2">
-                <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+                <div className="font-fira-sans text-xl text-purple-600 mb-2">
                   Huge milestone
                 </div>
                 <div className="flex items-center mb-3">

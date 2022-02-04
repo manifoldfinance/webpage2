@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Header from '../partials/Header';
-import PageIllustration from '../partials/PageIllustration';
 
 function SignIn() {
   return (
@@ -11,21 +10,19 @@ function SignIn() {
       <Header />
 
       {/*  Page content */}
-      <main className="grow">
+      <main className="flex-grow">
         {/*  Page illustration */}
         <div
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
           aria-hidden="true"
-        >
-          <PageIllustration />
-        </div>
+        ></div>
 
         <section className="relative">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
               {/* Page header */}
               <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                <h1 className="h1">Dashboard</h1>
+                <h1 className="h1">Network Operations</h1>
               </div>
 
               {/* Form */}
@@ -35,7 +32,7 @@ function SignIn() {
                     <div className="w-full px-3">
                       <button className="btn px-0 text-white bg-red-600 hover:bg-red-700 w-full relative flex items-center">
                         <svg
-                          className="w-4 h-4 fill-current text-white opacity-75 shrink-0 mx-4"
+                          className="w-4 h-4 fill-current text-white opacity-75 flex-shrink-0 mx-4"
                           viewBox="0 0 16 16"
                           xmlns="http://www.w3.org/2000/svg"
                         >
@@ -54,14 +51,14 @@ function SignIn() {
                 </form>
                 <div className="flex items-center my-6">
                   <div
-                    className="border-t border-gray-700 border-dotted grow mr-3"
+                    className="border-t border-gray-700 border-dotted flex-grow mr-3"
                     aria-hidden="true"
                   ></div>
                   <div className="text-gray-400">
-                    Or, sign in with your email
+                    Or, sign in with your accountId
                   </div>
                   <div
-                    className="border-t border-gray-700 border-dotted grow ml-3"
+                    className="border-t border-gray-700 border-dotted flex-grow ml-3"
                     aria-hidden="true"
                   ></div>
                 </div>
@@ -72,13 +69,13 @@ function SignIn() {
                         className="block text-gray-300 text-sm font-medium mb-1"
                         htmlFor="email"
                       >
-                        Email
+                        accountId
                       </label>
                       <input
                         id="email"
                         type="email"
                         className="form-input w-full text-gray-300"
-                        placeholder="you@yourcompany.com"
+                        placeholder="accountId"
                         required
                       />
                     </div>
@@ -113,7 +110,7 @@ function SignIn() {
                           to="/reset-password"
                           className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                         >
-                          Forgot Password?
+                          Reset Password
                         </Link>
                       </div>
                     </div>
@@ -127,12 +124,12 @@ function SignIn() {
                   </div>
                 </form>
                 <div className="text-gray-400 text-center mt-6">
-                  Don’t you have an account?{' '}
+                  {' '}
                   <Link
-                    to="/signup"
+                    to="https://form.typeform.com/to/Sr7xLL3s"
                     className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   >
-                    Sign up
+                    Request Access
                   </Link>
                 </div>
               </div>
@@ -145,3 +142,4 @@ function SignIn() {
 }
 
 export default SignIn;
+/** @export SignIn */

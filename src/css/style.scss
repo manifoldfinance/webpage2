@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@400;500;600;700;800;900&display=fallback');
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,11 +8,11 @@
 @import 'additional-styles/range-slider.scss';
 @import 'additional-styles/toggle-switch.scss';
 @import 'additional-styles/theme.scss';
-
+@import 'additional-styles/status.scss';
 @tailwind utilities;
 
 // Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive
-@layer utilities {
+@responsive {
   .rtl {
     direction: rtl;
   }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function FeaturesZigzag() {
+function SolutionsZigzag() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -11,10 +11,7 @@ function FeaturesZigzag() {
               Reach goals that matter
             </div>
             <h1 className="h2 mb-4">One product, unlimited solutions</h1>
-            <p className="text-xl text-gray-400">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit laborum — semper quis lectus nulla.
-            </p>
+            <p className="text-xl text-gray-400"></p>
           </div>
 
           {/* Items */}
@@ -28,10 +25,10 @@ function FeaturesZigzag() {
               >
                 <img
                   className="max-w-full mx-auto md:max-w-none h-auto"
-                  src={require('../images/features-03-image-01.png').default}
+                  src={require('../images/solutions-03-image-01.png')}
                   width="540"
                   height="405"
-                  alt="Features 01"
+                  alt="solutions 01"
                 />
               </div>
               {/* Content */}
@@ -40,7 +37,7 @@ function FeaturesZigzag() {
                 data-aos="fade-right"
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+                  <div className="font-fira-sans text-xl text-purple-600 mb-2">
                     More speed. Less spend
                   </div>
                   <h3 className="h3 mb-3">Keep projects on schedule</h3>
@@ -52,7 +49,7 @@ function FeaturesZigzag() {
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -62,7 +59,7 @@ function FeaturesZigzag() {
                     </li>
                     <li className="flex items-center mb-2">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -72,7 +69,7 @@ function FeaturesZigzag() {
                     </li>
                     <li className="flex items-center">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -94,10 +91,10 @@ function FeaturesZigzag() {
               >
                 <img
                   className="max-w-full mx-auto md:max-w-none h-auto"
-                  src={require('../images/features-03-image-02.png').default}
+                  src={require('../images/solutions-03-image-02.png')}
                   width="540"
                   height="405"
-                  alt="Features 02"
+                  alt="solutions 02"
                 />
               </div>
               {/* Content */}
@@ -106,7 +103,7 @@ function FeaturesZigzag() {
                 data-aos="fade-left"
               >
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+                  <div className="font-fira-sans text-xl text-purple-600 mb-2">
                     More speed. Less spend
                   </div>
                   <h3 className="h3 mb-3">Keep projects on schedule</h3>
@@ -118,7 +115,7 @@ function FeaturesZigzag() {
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -128,7 +125,7 @@ function FeaturesZigzag() {
                     </li>
                     <li className="flex items-center mb-2">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -138,7 +135,7 @@ function FeaturesZigzag() {
                     </li>
                     <li className="flex items-center">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -160,10 +157,10 @@ function FeaturesZigzag() {
               >
                 <img
                   className="max-w-full mx-auto md:max-w-none h-auto"
-                  src={require('../images/features-03-image-03.png').default}
+                  src={require('../images/solutions-03-image-03.png')}
                   width="540"
                   height="405"
-                  alt="Features 03"
+                  alt="solutions 03"
                 />
               </div>
               {/* Content */}
@@ -172,7 +169,7 @@ function FeaturesZigzag() {
                 data-aos="fade-right"
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+                  <div className="font-fira-sans text-xl text-purple-600 mb-2">
                     More speed. Less spend
                   </div>
                   <h3 className="h3 mb-3">Keep projects on schedule</h3>
@@ -184,7 +181,7 @@ function FeaturesZigzag() {
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -194,7 +191,7 @@ function FeaturesZigzag() {
                     </li>
                     <li className="flex items-center mb-2">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -204,7 +201,7 @@ function FeaturesZigzag() {
                     </li>
                     <li className="flex items-center">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -223,4 +220,4 @@ function FeaturesZigzag() {
   );
 }
 
-export default FeaturesZigzag;
+export default SolutionsZigzag;

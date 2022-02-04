@@ -15,13 +15,14 @@ function Dropdown({ children, title }) {
     >
       <a
         className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-        href="#"
+        to="#"
+        aria-haspopup="true"
         aria-expanded={dropdownOpen}
         onClick={(e) => e.preventDefault()}
       >
         {title}
         <svg
-          className="w-3 h-3 fill-current text-gray-500 cursor-pointer ml-1 shrink-0"
+          className="w-3 h-3 fill-current text-gray-500 cursor-pointer ml-1 flex-shrink-0"
           viewBox="0 0 12 12"
           xmlns="http://www.w3.org/2000/svg"
         >

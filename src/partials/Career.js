@@ -20,11 +20,11 @@ function Career() {
                 <div className="mb-2">
                   <a
                     className="flex justify-between items-center text-xl font-bold text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                    href="#0"
+                    to="#0"
                   >
                     <span>Lead Product Designer</span>
                     <svg
-                      className="stroke-current shrink-0 ml-2"
+                      className="stroke-current flex-shrink-0 ml-2"
                       width="24"
                       height="24"
                       xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ function Career() {
                 <div className="text-gray-400 flex flex-wrap items-center">
                   <div className="inline-flex items-center">
                     <svg
-                      className="mr-2 shrink-0"
+                      className="mr-2 flex-shrink-0"
                       vidth="14"
                       height="17"
                       viewBox="0 0 14 17"
@@ -60,7 +60,7 @@ function Career() {
                   <span className="text-gray-700 mx-3"> - </span>
                   <div className="inline-flex items-center">
                     <svg
-                      className="mr-2 shrink-0"
+                      className="mr-2 flex-shrink-0"
                       vidth="14"
                       height="16"
                       viewBox="0 0 14 16"
@@ -88,11 +88,11 @@ function Career() {
                 <div className="mb-2">
                   <a
                     className="flex justify-between items-center text-xl font-bold text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                    href="#0"
+                    to="#0"
                   >
                     <span>Front-end Engineer</span>
                     <svg
-                      className="stroke-current shrink-0 ml-2"
+                      className="stroke-current flex-shrink-0 ml-2"
                       width="24"
                       height="24"
                       xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +112,7 @@ function Career() {
                 <div className="text-gray-400 flex flex-wrap items-center">
                   <div className="inline-flex items-center">
                     <svg
-                      className="mr-2 shrink-0"
+                      className="mr-2 flex-shrink-0"
                       vidth="14"
                       height="17"
                       viewBox="0 0 14 17"
@@ -128,7 +128,7 @@ function Career() {
                   <span className="text-gray-700 mx-3"> - </span>
                   <div className="inline-flex items-center">
                     <svg
-                      className="mr-2 shrink-0"
+                      className="mr-2 flex-shrink-0"
                       vidth="14"
                       height="16"
                       viewBox="0 0 14 16"
@@ -156,11 +156,11 @@ function Career() {
                 <div className="mb-2">
                   <a
                     className="flex justify-between items-center text-xl font-bold text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                    href="#0"
+                    to="#0"
                   >
                     <span>Product Manager</span>
                     <svg
-                      className="stroke-current shrink-0 ml-2"
+                      className="stroke-current flex-shrink-0 ml-2"
                       width="24"
                       height="24"
                       xmlns="http://www.w3.org/2000/svg"
@@ -180,7 +180,7 @@ function Career() {
                 <div className="text-gray-400 flex flex-wrap items-center">
                   <div className="inline-flex items-center">
                     <svg
-                      className="mr-2 shrink-0"
+                      className="mr-2 flex-shrink-0"
                       vidth="14"
                       height="17"
                       viewBox="0 0 14 17"
@@ -196,7 +196,7 @@ function Career() {
                   <span className="text-gray-700 mx-3"> - </span>
                   <div className="inline-flex items-center">
                     <svg
-                      className="mr-2 shrink-0"
+                      className="mr-2 flex-shrink-0"
                       vidth="14"
                       height="16"
                       viewBox="0 0 14 16"

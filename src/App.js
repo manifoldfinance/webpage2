@@ -1,13 +1,21 @@
+/**
+ *  @file Manifold Finance Webapp
+ *  @license MIT
+ *  @author CommodityStream
+ *  @version 0.8.0
+ */
+
 import React, { useEffect } from 'react';
 import { Switch, Route, useLocation } from 'react-router-dom';
 
 import './css/style.scss';
 
 import AOS from 'aos';
+import { focusHandling } from 'cruip-js-toolkit';
 
 import Home from './pages/Home';
-import Features from './pages/Features';
-import Pricing from './pages/Pricing';
+import Solutions from './pages/solutions';
+import Network from './pages/Network';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import About from './pages/About';
@@ -35,6 +43,7 @@ function App() {
     document.querySelector('html').style.scrollBehavior = 'auto';
     window.scroll({ top: 0 });
     document.querySelector('html').style.scrollBehavior = '';
+    focusHandling('outline');
   }, [location.pathname]); // triggered on route change
 
   return (
@@ -85,3 +94,4 @@ function App() {
 }
 
 export default App;
+/** @export App */

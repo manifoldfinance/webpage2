@@ -47,8 +47,7 @@ function Newsletter() {
             <div className="mb-6 text-center lg:mr-16 lg:mb-0 lg:text-left lg:w-1/2">
               <h3 className="mb-2 text-white h3">Primitives</h3>
               <p className="text-lg text-purple-200">
-                Our engineering newsletter <br />
-                is the only thing that leaks alpha here
+                Financial Engineering blog and newsletter
               </p>
             </div>
 
@@ -63,7 +62,7 @@ function Newsletter() {
                 />
                 <a
                   className="text-purple-600 bg-purple-100 shadow btn hover:bg-white"
-                  href="#0"
+                  to="#0"
                 >
                   Subscribe
                 </a>

@@ -1,0 +1,127 @@
+$COLOR-ONLINE: #7cb512;
+$COLOR-OFFLINE: #ea907a;
+$COLOR-CHECKING: #eae37a;
+$COLOR-BACKGROUND: #2a2a2a;
+$COLOR-BUTTON-BG: #c4c4c4;
+$COLOR-TEXT: #6b6b6b;
+$COLOR-TITLE: #c1c1c1;
+$COLOR-LINK: #c1c1c1;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: $COLOR-BACKGROUND;
+    margin: 5%;
+    color: $COLOR-TEXT;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: minmax(500px, 35%) 1fr;
+
+    @media only screen and (max-width: 900px) {
+        display: block;
+    }
+}
+  
+.child {
+    &:first-child {
+        border-right: 1px solid #c1c1c1;
+
+        @media only screen and (max-width: 900px) {
+            border: 0px solid transparent;
+        }
+    }
+    &:nth-child(2) {
+        display: grid;
+        place-items: center;
+
+        img {
+            object-fit: cover;
+            width: 70%;
+            height: 100%;
+        }
+
+        @media only screen and (max-width: 900px) {
+            display: none;
+        }
+    }
+}
+
+#header {
+    display: grid;
+    grid-template-columns: minmax(200px, 75%) 1fr;
+    padding: 0;
+    margin: 0 0 5em 0;
+
+    #title {
+        color: $COLOR-TITLE;
+    }
+    #status {
+        background: #fff;
+        color: $COLOR-BACKGROUND;
+        width: 65px;
+        display: flex;
+        align-items: center;
+        padding: 0 0.5em;
+        text-transform: lowercase;
+        font-size: 80%;
+        border-radius: 2px;
+
+        &::before {
+            content: '';
+            border-radius: 50%;
+            border-width: 5px;
+            height: 10px;
+            width: 10px;
+            background-color: $COLOR-CHECKING;
+            margin: 0 0.5em 0 0;
+        }
+
+        &[status="online"]::before {
+            background-color: $COLOR-ONLINE;
+        }
+        &[status="offline"]::before {
+            background-color: $COLOR-OFFLINE;
+        }
+    }
+}
+
+#content {
+    min-height: 70vh;
+    width: 80%;
+
+    p {
+        margin: 0 0 3em 0;
+
+        a {
+            color: $COLOR-LINK;
+            text-decoration: underline;
+        }
+    }
+
+    .link-button {
+        padding: 2em 3em;
+        text-transform: uppercase;
+        border-radius: 2px;
+        border: 0px;
+        background: $COLOR-BUTTON-BG;
+        color: $COLOR-TEXT;
+        text-decoration: none;
+    }
+}
+
+#footer {
+    border-top: 1px solid #c1c1c1;
+    padding: 2em 0 0 0;
+
+    margin-top: 2em;
+
+    p {
+        font-size: 70%;
+        width: 50%;
+    }
+}
