@@ -2,11 +2,11 @@ import React from 'react';
 
 import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
-import HeroSolutions from '../partials/HeroSolutions';
+//import HeroSolutions from '../partials/HeroSolutions';
 import Stats from '../partials/Stats';
-import SolutionsZigzag from '../partials/SolutionsZigzag';
-import SolutionsBlocks from '../partials/SolutionsBlocks';
-import CaseStudies from '../partials/CaseStudies';
+
+
+
 import Cta from '../partials/Cta';
 import Footer from '../partials/Footer';
 
@@ -27,11 +27,11 @@ function solutions() {
         </div>
 
         {/*  Page sections */}
-        <HeroSolutions />
+   
         <Stats />
-        <SolutionsZigzag />
-        <SolutionsBlocks />
-        <CaseStudies />
+
+
+
         <Cta />
       </main>
 
