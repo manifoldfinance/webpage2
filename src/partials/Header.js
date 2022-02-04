@@ -79,10 +79,10 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/platform"
+                  to="/solutions"
                   className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
                 >
-                  Platform
+                  Solutions
                 </Link>
               </li>
               <li>

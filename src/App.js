@@ -17,6 +17,7 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import PageNotFound from './pages/PageNotFound';
+import Network from './pages/solutions';
 
 function App() {
   const location = useLocation();
@@ -41,20 +42,19 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
-        </Route>
-        {/**         
+        </Route>        
         <Route path="/features">
           <Features />
         </Route>
-        <Route path="/pricing">
+        {/* <Route path="/pricing">
           <Pricing />
-        </Route>
-        <Route path="/blog">
+        </Route> */}
+        {/* <Route path="/blog">
           <Blog />
-        </Route>
-        <Route path="/blog-post">
+        </Route> */}
+        {/* <Route path="/blog-post">
           <BlogPost />
-        </Route>
+        </Route> */}
         <Route path="/about">
           <About />
         </Route>
@@ -63,8 +63,10 @@ function App() {
         </Route>
         <Route path="/help">
           <Help />
-        </Route> 
-*/}
+        </Route>
+        <Route path="/solutions">
+          <Network/>
+        </Route>
         <Route path="/signin">
           <SignIn />
         </Route>
