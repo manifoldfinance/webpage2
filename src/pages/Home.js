@@ -6,8 +6,9 @@ import HeroHome from '../partials/HeroHome';
 import Cta from '../partials/Cta';
 import Process from '../partials/Process';
 import SolutionsHome from '../partials/SolutionsHome';
+import Target from '../partials/Target';
 
-import Tabs from '../partials/Tabs';
+//import Tabs from '../partials/Tabs';
 // import Target from '../partials/Target';
 //import News from '../partials/News';
  import Newsletter from '../partials/Newsletter';
@@ -30,7 +31,7 @@ function Home() {
         <Process />
 
         <br />
-        <Tabs />
+        <Target />
         <br />
         <Newsletter />
       </main>
