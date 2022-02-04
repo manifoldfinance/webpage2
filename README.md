@@ -18,10 +18,6 @@
 
 - yarn run dev
 
-## Changelog
-
-[CHANGELOG.md](CHANGELOG.md)
-
 ### License
 
 Copyright 2021 - CommodityStream, LLC. - All Rights Reserved
