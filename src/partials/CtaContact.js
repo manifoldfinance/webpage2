@@ -9,7 +9,7 @@ function CtaContact() {
           <div className="flex flex-col lg:flex-row justify-between items-center">
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-3/4">
-              <h3 className="h3 text-white mb-2">Just want to say hello?</h3>
+              <h3 className="h3 text-white mb-2">Contact our team</h3>
               <p className="text-gray-400 text-lg">
                 Drop us a line and we will get back to you shortly.
               </p>
@@ -19,7 +19,7 @@ function CtaContact() {
             <div className="w-full lg:w-1/4 flex justify-center lg:justify-end">
               <a
                 className="btn text-white bg-purple-600 hover:bg-purple-700"
-                href="#0"
+                to="#0"
               >
                 Contact us
               </a>
@@ -32,3 +32,4 @@ function CtaContact() {
 }
 
 export default CtaContact;
+/** @export CtaContact */

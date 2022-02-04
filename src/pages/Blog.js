@@ -13,7 +13,7 @@ function Blog() {
       <Header />
 
       {/*  Page content */}
-      <main className="grow">
+      <main className="flex-grow">
         {/*  Page illustration */}
         <div
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"

@@ -18,11 +18,7 @@ function BlogSingle() {
                     className="text-xl text-gray-400"
                     data-aos="fade-up"
                     data-aos-delay="200"
-                  >
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
-                  </p>
+                  ></p>
                 </div>
                 {/* Article meta */}
                 <div className="md:flex md:items-center md:justify-between mt-3">
@@ -34,8 +30,8 @@ function BlogSingle() {
                   >
                     <Link to="#">
                       <img
-                        className="rounded-full shrink-0 mr-4"
-                        src={require('../images/news-author-04.jpg').default}
+                        className="rounded-full flex-shrink-0 mr-4"
+                        src={require('../images/news-author-04.jpg')}
                         width="40"
                         height="40"
                         alt="Author 04"
@@ -88,7 +84,7 @@ function BlogSingle() {
               >
                 <img
                   className="w-full"
-                  src={require('../images/news-single.jpg').default}
+                  src={require('../images/news-single.jpg')}
                   width="1024"
                   height="576"
                   alt="News single"
@@ -138,7 +134,7 @@ function BlogSingle() {
                 <figure className="mb-8">
                   <img
                     className="w-full"
-                    src={require('../images/news-inner-image.jpg').default}
+                    src={require('../images/news-inner-image.jpg')}
                     width="768"
                     height="432"
                     alt="News inner"
@@ -294,7 +290,7 @@ function BlogSingle() {
               </h4>
 
               {/* Articles container */}
-              <div className="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
+              <div className="grid gap-12 md:grid-cols-3 md:col-gap-6 md:row-gap-8 items-start">
                 {/* 1st article */}
                 <article className="flex flex-col h-full" data-aos="fade-up">
                   <header>
@@ -302,7 +298,7 @@ function BlogSingle() {
                       <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                         <img
                           className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                          src={require('../images/news-04.jpg').default}
+                          src={require('../images/news-04.jpg')}
                           width="352"
                           height="198"
                           alt="News 04"
@@ -338,7 +334,7 @@ function BlogSingle() {
                       </Link>
                     </h3>
                   </header>
-                  <p className="text-lg text-gray-400 grow">
+                  <p className="text-lg text-gray-400 flex-grow">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
@@ -346,8 +342,8 @@ function BlogSingle() {
                   <footer className="flex items-center mt-4">
                     <Link to="#">
                       <img
-                        className="rounded-full shrink-0 mr-4"
-                        src={require('../images/news-author-05.jpg').default}
+                        className="rounded-full flex-shrink-0 mr-4"
+                        src={require('../images/news-author-05.jpg')}
                         width="40"
                         height="40"
                         alt="Author 05"
@@ -377,7 +373,7 @@ function BlogSingle() {
                       <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                         <img
                           className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                          src={require('../images/news-05.jpg').default}
+                          src={require('../images/news-05.jpg')}
                           width="352"
                           height="198"
                           alt="News 05"
@@ -405,7 +401,7 @@ function BlogSingle() {
                       </Link>
                     </h3>
                   </header>
-                  <p className="text-lg text-gray-400 grow">
+                  <p className="text-lg text-gray-400 flex-grow">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
@@ -413,8 +409,8 @@ function BlogSingle() {
                   <footer className="flex items-center mt-4">
                     <Link to="#">
                       <img
-                        className="rounded-full shrink-0 mr-4"
-                        src={require('../images/news-author-03.jpg').default}
+                        className="rounded-full flex-shrink-0 mr-4"
+                        src={require('../images/news-author-03.jpg')}
                         width="40"
                         height="40"
                         alt="Author 03"
@@ -444,7 +440,7 @@ function BlogSingle() {
                       <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                         <img
                           className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                          src={require('../images/news-06.jpg').default}
+                          src={require('../images/news-06.jpg')}
                           width="352"
                           height="198"
                           alt="News 06"
@@ -480,7 +476,7 @@ function BlogSingle() {
                       </Link>
                     </h3>
                   </header>
-                  <p className="text-lg text-gray-400 grow">
+                  <p className="text-lg text-gray-400 flex-grow">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
@@ -488,8 +484,8 @@ function BlogSingle() {
                   <footer className="flex items-center mt-4">
                     <Link to="#">
                       <img
-                        className="rounded-full shrink-0 mr-4"
-                        src={require('../images/news-author-06.jpg').default}
+                        className="rounded-full flex-shrink-0 mr-4"
+                        src={require('../images/news-author-06.jpg')}
                         width="40"
                         height="40"
                         alt="Author 06"

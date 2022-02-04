@@ -1,5 +1,5 @@
-// eslint-disable
 import React, { useState } from 'react';
+// import Modal from '../utils/Modal';
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -14,30 +14,31 @@ function HeroHome() {
           {/* Section header */}
           <div className="pb-12 mx-auto max-w-3xl text-center md:pb-16">
             <h1 className="mb-4 h1" data-aos="fade-up">
-              Connect to a world of opportunities
+              Connect to DeFi Opportunities
             </h1>
             <p
               className="mb-8 text-xl text-gray-400"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Protect Your Transactions with Manifold
+              Manifold enables capital to capitalize on opportunity in
+              decentralized financial markets.
             </p>
             <div className="mx-auto max-w-xs sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
                   className="mb-4 w-full text-black bg-white btn hover:bg-white sm:w-auto sm:mb-0"
-                  href="https://github.com/manifoldfinance/overview-docs#manifold-finance---platform-overview"
+                  to="https://forums.manifoldfinance.com/t/guide-how-to-stake-fold-for-xfold/150"
                 >
-                  Get Started
+                  Start Staking
                 </a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a
                   className="w-full text-white bg-gray-700 btn hover:bg-gray-800 sm:w-auto sm:ml-4"
-                  href="https://docs.openmev.org/"
+                  to="https://forums.manifoldfinance.com/"
                 >
-                  Learn more
+                  Forums
                 </a>
               </div>
             </div>
@@ -49,16 +50,29 @@ function HeroHome() {
               className="flex relative justify-center items-center"
               data-aos="fade-up"
               data-aos-delay="200"
-              data-aos-anchor="[data-aos-id-target]"
             >
+              {/* @dev hereo image here */}
               <img
-                className="mx-auto md:max-w-none"
-                src={require('./banner.svg').default}
-                width="640"
-                height="510"
-                alt="MEV Service"
+                className="mx-auto"
+                src={require('../images/hero_graph.svg')}
+                width="820"
+                height="820"
+                alt="Miner / Maximal Extracted Value"
               />
+              <a
+                className="absolute group"
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setVideoModalOpen(true);
+                }}
+                aria-controls="modal"
+              ></a>
+              <br></br>
+              <br></br>
             </div>
+
+            {/* Modal */}
           </div>
         </div>
       </div>

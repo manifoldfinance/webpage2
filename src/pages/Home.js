@@ -3,12 +3,14 @@ import React from 'react';
 import Header from '../partials/Header';
 // import PageIllustration from '../partials/PageIllustration';
 import HeroHome from '../partials/HeroHome';
-
+import Cta from '../partials/Cta';
 import Process from '../partials/Process';
 import SolutionsHome from '../partials/SolutionsHome';
-import Target from '../partials/Target';
+
+import Tabs from '../partials/Tabs';
+// import Target from '../partials/Target';
 //import News from '../partials/News';
-import Newsletter from '../partials/Newsletter';
+ import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
 
 function Home() {
@@ -23,13 +25,13 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <br />
-        <br />
-
-        <Process />
 
         <SolutionsHome />
-        <Target />
+        <Process />
+
+        <br />
+        <Tabs />
+        <br />
         <Newsletter />
       </main>
 
@@ -40,10 +42,10 @@ function Home() {
 }
 /**
  *  Page Sections tmp removed
+ *
  *   <Tabs />
- *
- *  <News />
- *
+ *   <News />
+ *   <Newsletter />
  *  Our solution handles connectivity to venues, executes trades via
  * your choice of a number of order types and execution algorithms, and consolidates key data.
  *   <Target />

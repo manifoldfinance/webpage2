@@ -21,19 +21,19 @@ function NetworkTables() {
 
   return (
     <section className="relative">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="px-4 mx-auto max-w-6xl sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12">
-            <h1 className="h1 mb-4" data-aos="fade-up">
-              Supported Networks
+          <div className="pb-12 mx-auto max-w-3xl text-center">
+            <h1 className="mb-4 h1" data-aos="fade-up">
+              MEV: Maximal End user Value
             </h1>
             <p
               className="text-xl text-gray-400"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Ethereum Mainnet, Polkadot, and more.
+              Seamless connectivity to Flashbots, Eden Network, and more
             </p>
           </div>
 
@@ -42,14 +42,14 @@ function NetworkTables() {
             {/* Network toggle */}
 
             {/* Bottom infobox */}
-            <div className="flex flex-col lg:flex-row justify-between items-center mt-12 lg:mt-6 lg:py-8 lg:border-t lg:border-b lg:border-gray-800">
-              <div className="font-medium text-lg text-center lg:text-left mb-4 lg:mb-0">
-                Expecting more than 1000 Trades?
+            <div className="flex flex-col justify-between items-center mt-12 lg:flex-row lg:mt-6 lg:py-8 lg:border-t lg:border-b lg:border-gray-800">
+              <div className="mb-4 text-lg font-medium text-center lg:text-left lg:mb-0">
+                Serving over 10,000 requests per second
               </div>
               <div>
                 <a
-                  className="btn-sm text-white bg-purple-600 hover:bg-purple-700"
-                  to="#0"
+                  className="text-white bg-purple-600 btn-sm hover:bg-purple-700"
+                  to="https://form.typeform.com/to/Sr7xLL3s"
                 >
                   Contact us
                 </a>

@@ -12,7 +12,7 @@ function TeamImages() {
               data-aos="fade-right"
             >
               <img
-                src={require('../images/team-mosaic-02.jpg').default}
+                src={require('../images/team-mosaic-02.jpg')}
                 width="320"
                 height="240"
                 alt="Team mosaic 02"
@@ -25,7 +25,7 @@ function TeamImages() {
               data-aos-delay="100"
             >
               <img
-                src={require('../images/team-mosaic-01.jpg').default}
+                src={require('../images/team-mosaic-01.jpg')}
                 width="600"
                 height="338"
                 alt="Team mosaic 01"
@@ -43,7 +43,7 @@ function TeamImages() {
               data-aos-delay="200"
             >
               <img
-                src={require('../images/team-mosaic-03.jpg').default}
+                src={require('../images/team-mosaic-03.jpg')}
                 width="250"
                 height="188"
                 alt="Team mosaic 03"
@@ -61,7 +61,7 @@ function TeamImages() {
               data-aos-delay="300"
             >
               <img
-                src={require('../images/team-mosaic-04.jpg').default}
+                src={require('../images/team-mosaic-04.jpg')}
                 width="196"
                 height="196"
                 alt="Team mosaic 04"

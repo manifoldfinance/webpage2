@@ -1,14 +1,19 @@
-#!/bin/bash
-start=$(date +%s)
-export CI=''
-yarn install
-yarn run build
-git hash-object --no-filters  public/.well-known/security.txt
-export VERSION=$(git rev-parse --short HEAD)
-sleep 1
-now=$(date +%s)
+#!/usr/bin/env bash
+echo "Clearing Cache.."
+rm -rf build/
+echo "Loading .env configuration..."
+export $(cat .env | xargs)
+start=$(gdate +%s)
 
-echo "Build Complete"
-echo "$VERSION"
-echo "Build time in seconds:"
-echo "$((now-start))"
+echo "Building Production Deployment..."
+yarn install
+yarn run prod
+vercel deploy --prod
+npx gh-pages -d build/
+echo "Production Deployment Complete!"
+now=$(gdate +%s)
+
+sleep 1
+
+
+yarn run start "$VERSION" new -e ENVIRONMENT -t $((now-start))

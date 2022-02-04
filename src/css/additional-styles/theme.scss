@@ -1,12 +1,8 @@
-.form-input,
-.form-textarea,
-.form-multiselect,
-.form-select,
-.form-checkbox,
-.form-radio {
-  &:focus {
-    @apply ring-0;
-  }
+:focus,
+button:focus,
+.btn:focus,
+.btn-sm:focus {
+  @apply outline-none ring;
 }
 
 // Hamburger button
@@ -16,7 +12,6 @@
     &:nth-child(2),
     &:nth-child(3) {
       transform-origin: center;
-      transform: rotate(0deg);
     }
 
     &:nth-child(1) {

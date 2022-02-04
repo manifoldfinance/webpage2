@@ -11,65 +11,63 @@ function Faqs() {
           </div>
 
           {/* Faqs */}
-          <ul className="grid gap-8 md:grid-cols-2 xl:gap-x-16 lg:gap-y-12">
+          <ul className="grid gap-8 md:grid-cols-2 xl:col-gap-16 lg:row-gap-12">
             <li>
               <h4 className="text-xl font-medium mb-2">
-                Publishing industries for previewing layouts?
+                Near zero-cost trading fees for users
               </h4>
               <p className="text-lg text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                enim lobortis scelerisque fermentum.
+                By leveraging batching, miner transaction flow, and providing
+                additional performant utilities (e.g. faster calculations for
+                finalizing), OpenMEV enables gasless trading on Layer 1 Ethereum
               </p>
             </li>
             <li>
               <h4 className="text-xl font-medium mb-2">
-                Publishing industries for previewing layouts?
+                Efficiency by Aggregation
               </h4>
               <p className="text-lg text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                enim lobortis scelerisque fermentum.
+                OpenMEV is a strategy in which we maximize profits from user
+                actions. This normally gets distributed for free to miners and
+                bots via MEV (miner extracted value). We then extract this value
+                and provide these profits as <b>cashback/rebates</b> back to
+                users.
+              </p>
+            </li>
+            <li>
+              <h4 className="text-xl font-medium mb-2">Gas Pricing</h4>
+              <p className="text-lg text-gray-400">
+                Our gas pricing service utilizes noise-reduction (i.e. removing
+                outlier transactions) to provide accurate gas pricing
+                predictions.
               </p>
             </li>
             <li>
               <h4 className="text-xl font-medium mb-2">
-                Publishing industries for previewing layouts?
+                How is this different than flashbots?
               </h4>
               <p className="text-lg text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                enim lobortis scelerisque fermentum.
+                Flashbots provides an open platform for arbitrage and MEV
+                transactions. We contribute to flashbots, we see our stack as
+                building ontop of flashbots.
               </p>
             </li>
             <li>
               <h4 className="text-xl font-medium mb-2">
-                Publishing industries for previewing layouts?
+                Do mining pools have to run your client?
               </h4>
               <p className="text-lg text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                enim lobortis scelerisque fermentum.
+                No! In fact we work with mining pools to enhance their block
+                propagation, sort of like how a CDN network helps distribute
+                content for web applications.
               </p>
             </li>
             <li>
               <h4 className="text-xl font-medium mb-2">
-                Publishing industries for previewing layouts?
+                Who are you working with?
               </h4>
               <p className="text-lg text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                enim lobortis scelerisque fermentum.
-              </p>
-            </li>
-            <li>
-              <h4 className="text-xl font-medium mb-2">
-                Publishing industries for previewing layouts?
-              </h4>
-              <p className="text-lg text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                enim lobortis scelerisque fermentum.
+                Our current partners include Sushiswap and Eden Network.
               </p>
             </li>
           </ul>
