@@ -48,14 +48,12 @@ function Header() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://forums.manifoldfinance.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  to="/solutions"
                   className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
                 >
-                  Forums
-                </a>
+                  Solutions
+                </Link>
               </li>
               <li>
                 <a
