@@ -56,14 +56,12 @@ function Header() {
                 </Link>
               </li>
               <li>
-                <a
-                  href="https://forums.manifoldfinance.com/t/guide-how-to-stake-fold-for-xfold/150"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  to="/about"
                   className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
                 >
-                  Staking
-                </a>
+                  About Us
+                </Link>
               </li>
               <li>
                 <a
@@ -79,34 +77,31 @@ function Header() {
               <Dropdown title="Resources">
                 {/* 2nd level: hover */}
                 <li>
-                  <Link className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-white-600">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href={'https://form.typeform.com/to/Sr7xLL3s'}
-                    >
-                      Contact us
-                    </a>
+                  <Link
+                   to="/contact"
+                   className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-white-600">
+                      Contact Us
                   </Link>
                 </li>
                 <li>
-                  <Link className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-white-600">
                     <a
+                      className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-white-600"
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={'https://manifoldfinance.github.io/hub/'}
+                      href={'https://docs.openmev.org/'}
                     >
                       Developer Hub
                     </a>
-                  </Link>
                 </li>
                 <li>
-                  <Link
-                    to="https://status.manifoldfinance.com"
-                    className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-white-600"
-                  >
-                    Service Status
-                  </Link>
+                  <a
+                      className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-white-600"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={'https://status.manifoldfinance.com'}
+                    >
+                      Service Status
+                    </a>
                 </li>
               </Dropdown>
             </ul>
@@ -114,27 +109,23 @@ function Header() {
             {/* Desktop sign in links */}
             <ul className="flex flex-wrap flex-grow justify-end items-center">
               <li>
-                <Link className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out text-white-600 hover:text-gray-200" >
-                  <a
+                <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href={`https://staking.manifoldfinance.com`}
                   >
                   Dashboard
                   </a>
-                </Link>
               </li>
               <li>
-                <Link className="ml-3 text-white btn-sm bg-white-600 hover:bg-white-700"
-                >
-                  <a
+                <a
+                  href="https://forums.manifoldfinance.com/t/guide-how-to-stake-fold-for-xfold/150"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href={`https://staking.manifoldfinance.com`}
-                  >
+                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
+                >
                   Staking
-                    </a>
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>
